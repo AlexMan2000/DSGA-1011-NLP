@@ -1,6 +1,14 @@
 import json
 import math
 import nltk
+import ssl  # For compatibility and smooth download from nltk, necessary for local dev
+
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
 
 ########### Text classification ###########
 
