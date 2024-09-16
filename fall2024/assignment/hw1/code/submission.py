@@ -18,7 +18,11 @@ else:
     ssl._create_default_https_context = _create_unverified_https_context
 
 random.seed(42)
+from nltk.corpus import stopwords
 
+nltk.download('stopwords')
+# Define stopwords
+stop_words = set(stopwords.words('english'))
 
 def extract_unigram_features(ex):
     """Return unigrams in the hypothesis and the premise.
@@ -26,7 +30,7 @@ def extract_unigram_features(ex):
         ex : dict
             Keys are gold_label (int, optional), sentence1 (list), and sentence2 (list)
     Returns:
-        A dictionary of BoW featurs of x.
+        A dictionary of BoW features of x.
     Example:
         "I love it", "I hate it" --> {"I":2, "it":2, "hate":1, "love":1}
     """
@@ -35,8 +39,6 @@ def extract_unigram_features(ex):
     for word in ex["sentence1"] + ex["sentence2"]:
         boW[word] += 1
 
-    # for word in ex["sentence1"]:
-    #     boW[word] += 1
     return boW
     # END_YOUR_CODE
 
@@ -60,18 +62,18 @@ def extract_ngram_features(n=1, filtered=False):
         "I love it", "I hate it" --> {"I love": 1, "love it": 1, "I hate": 1, "hate it": 1}
     """
 
-    from nltk.corpus import stopwords
-    nltk.download('stopwords')
-    # Define stopwords
-    stop_words = set(stopwords.words('english'))
+    # from nltk.corpus import stopwords
+    # nltk.download('stopwords')
+    # # Define stopwords
+    # stop_words = set(stopwords.words('english'))
 
     def inner_func(ex):
         # BEGIN_YOUR_CODE
         boW = defaultdict(int)
 
-        # Combine both sentences
-        hypothesis = ex["sentence1"]
-        premise = ex["sentence2"]
+        # Combine both sentences, for problem 2.8
+        # hypothesis = ex["sentence1"]
+        # premise = ex["sentence2"]
         combined_sentence = ex["sentence1"] + ex["sentence2"]
         # combined_sentence = list(map(lambda word: word.lower(), combined_sentence))
         # for i in range(len(hypothesis) - n + 1):
@@ -176,7 +178,7 @@ def valid_model(valid_data, weights, feature_extractor, epoch):
     print(f"Epoch: {epoch}, validation_err: {validation_err}")
 
 
-def extract_custom_features_tf_idf(train_data, filter=False, ngram=1):
+def extract_custom_features_tf_idf(filter=False, ngram=1):
     """Design your own features with TF-IDF and stopwords removal using closure.
 
     Parameters:
@@ -201,6 +203,7 @@ def extract_custom_features_tf_idf(train_data, filter=False, ngram=1):
     nltk.download('stopwords')
     # Define stopwords
     stop_words = set(stopwords.words('english'))
+    train_data = read_dataset('data/train.json', -1)
 
     # Preprocess the sentences: Tokenize and remove stopwords
     def preprocess(sentences_, stop_words_):
@@ -250,6 +253,7 @@ def extract_custom_features_tf_idf(train_data, filter=False, ngram=1):
     return compute_tfidf
     # END_YOUR_CODE
 
+
 def extract_custom_features(ex):
     """
 
@@ -260,8 +264,7 @@ def extract_custom_features(ex):
     Returns:
         The tf-idf dict of this sentence
     """
-    pass
-
+    return extract_ngram_features(2, True)(ex)
 
 def count_cooccur_matrix(tokens, window_size=4):
     """Compute the co-occurrence matrix given a sequence of tokens.
@@ -309,7 +312,6 @@ def count_cooccur_matrix(tokens, window_size=4):
             if i != j:  # Avoid self-co-occurrence
                 outer_word_index = word2ind[tokens[j]]
                 co_mat[cur_word_index, outer_word_index] += 1
-                co_mat[outer_word_index, cur_word_index] += 1
 
     return word2ind, co_mat
     # END_YOUR_CODE
@@ -327,10 +329,11 @@ def cooccur_to_embedding(co_mat, embed_size=50):
     """
     # BEGIN_YOUR_CODE
     try:
-        U, Sigma, Vh = np.linalg.svd(co_mat, full_matrices=False)
+        U, Sigma, Vh = np.linalg.svd(co_mat, full_matrices=False, hermitian=True)
         U_k = U[:, :embed_size]
         Sigma_k = np.diag(Sigma[:embed_size])
-        return np.dot(U_k, Sigma_k)
+        res = np.dot(U_k, Sigma_k)
+        return res
     except LinAlgError:
         print("SVD computation does not converge.")
     # END_YOUR_CODE
@@ -359,8 +362,7 @@ def top_k_similar(word_ind, embeddings, word2ind, k=10, metric='dot'):
 
     if metric == "dot":
         # Dot product similarity
-        dot_product_score = embeddings @ embeddings[word_ind].reshape(-1, 1)
-        similarity_scores = dot_product_score.squeeze()
+        similarity_scores = np.dot(embeddings, embeddings[word_ind].reshape(-1, 1)).squeeze()
 
     elif metric == "cosine":
         # Normalize the embeddings (handle zero norm by adding a small epsilon)
@@ -374,7 +376,8 @@ def top_k_similar(word_ind, embeddings, word2ind, k=10, metric='dot'):
 
     else:
         raise RuntimeError(f"Unsupported metric {metric}! Please choose between 'dot' and 'cosine'.")
-    top_k_indices = np.argsort(similarity_scores)[::-1][1:k + 1]
+    similarity_scores[word_ind] = -np.inf
+    top_k_indices = np.argsort(similarity_scores)[-k:][::-1]
     top_k_words = [ind2word[idx] for idx in top_k_indices]
 
     return top_k_words
@@ -383,6 +386,3 @@ def top_k_similar(word_ind, embeddings, word2ind, k=10, metric='dot'):
 
 if __name__ == "__main__":
     import doctest
-
-    # doctest.run_docstring_examples(extract_custom_features_tf_idf, globals(), verbose=True)
-    doctest.run_docstring_examples(count_cooccur_matrix, globals(), verbose=True)

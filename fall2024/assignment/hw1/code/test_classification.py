@@ -17,7 +17,8 @@ def test_custom():
     train_data = read_dataset('data/train.json', -1)
     valid_data = read_dataset('data/dev.json', -1)
 
-    feature_extractor = extract_custom_features_tf_idf(train_data, filter=False)
+    # feature_extractor = extract_custom_features_tf_idf(train_data, filter=False)
+    feature_extractor = extract_custom_features
     # feature_extractor = extract_ngram_features(2, filtered=False)
     weights = learn_predictor(train_data, valid_data, feature_extractor, 0.01, 10)
     predictor = lambda ex: 1 if dot(weights, feature_extractor(ex)) > 0 else 0

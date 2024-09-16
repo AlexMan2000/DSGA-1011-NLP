@@ -5,6 +5,7 @@ def test_embedding(words=['man', 'woman', 'happy', 'sad', 'emma', 'knightley']):
     tokens = read_corpus()
     word2ind, co_mat = count_cooccur_matrix(tokens, window_size=1)
     embeddings = cooccur_to_embedding(co_mat, 100)
+
     for word in words:
         word_ind = word2ind[word]
         top_k_words = top_k_similar(word_ind, embeddings, word2ind, k=10, metric='cosine')
