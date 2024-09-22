@@ -41,5 +41,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+venv/
+
 !fall2023/section/sec02/sec02.pdf
 
