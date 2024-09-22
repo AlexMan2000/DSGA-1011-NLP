@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c62c25b-6c5a-462c-bf49-ac5d5b61d534" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../fall2023/section/sec01/sec01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../fall2023/section/sec01/sec01.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="1c62c25b-6c5a-462c-bf49-ac5d5b61d534" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +35,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "F:/Study_Notes_Backup/DS-GA-1011-NLP/course-material/fall2024/assignment/hw2/code",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
@@ -51,6 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726977241961</updated>
       <workItem from="1726977243176" duration="1233000" />
+      <workItem from="1727022173848" duration="315000" />
     </task>
     <servers />
   </component>
