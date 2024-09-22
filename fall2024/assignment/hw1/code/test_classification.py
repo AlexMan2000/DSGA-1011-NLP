@@ -1,4 +1,5 @@
-from submission import extract_unigram_features, extract_custom_features, learn_predictor
+from submission import extract_unigram_features, extract_custom_features, learn_predictor, \
+    extract_custom_features_tf_idf, extract_ngram_features
 from util import *
 
 def test_unigram():
@@ -15,7 +16,10 @@ def test_unigram():
 def test_custom():
     train_data = read_dataset('data/train.json', -1)
     valid_data = read_dataset('data/dev.json', -1)
+
+    # feature_extractor = extract_custom_features_tf_idf(train_data, filter=False)
     feature_extractor = extract_custom_features
+    # feature_extractor = extract_ngram_features(2, filtered=False)
     weights = learn_predictor(train_data, valid_data, feature_extractor, 0.01, 10)
     predictor = lambda ex: 1 if dot(weights, feature_extractor(ex)) > 0 else 0
     train_err = evaluate_predictor([(ex, ex['gold_label']) for ex in train_data], predictor)

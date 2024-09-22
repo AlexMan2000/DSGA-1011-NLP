@@ -1,0 +1,1684 @@
+================================================================================
+P: A football player tackles an member of the opposing team .
+H: People playing football .
+label=1, predicted=1, correct
+f=. People, v=1, w=0.42359099904928355, v*w=0.42359099904928355
+f=football ., v=1, w=0.2963082983170911, v*w=0.2963082983170911
+f=People playing, v=1, w=0.2109632948811936, v*w=0.2109632948811936
+f=playing football, v=1, w=0.13298158489129305, v*w=0.13298158489129305
+f=member opposing, v=1, w=0.051623276743901984, v*w=0.051623276743901984
+f=football player, v=1, w=0.03283769748896656, v*w=0.03283769748896656
+f=player tackles, v=1, w=0, v*w=0
+f=tackles member, v=1, w=0, v*w=0
+f=opposing team, v=1, w=-0.14712953490812336, v*w=-0.14712953490812336
+f=team ., v=1, w=-0.5024312267841723, v*w=-0.5024312267841723
+================================================================================
+P: An older gentleman speaking at a podium .
+H: A man giving a speech
+label=0, predicted=1, wrong
+f=giving speech, v=1, w=0.15771933963422602, v*w=0.15771933963422602
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=podium ., v=1, w=0.025250082443868185, v*w=0.025250082443868185
+f=man giving, v=1, w=0.010927970492764366, v*w=0.010927970492764366
+f=gentleman speaking, v=1, w=0, v*w=0
+f=speaking podium, v=1, w=0, v*w=0
+f=older gentleman, v=1, w=-0.10547766088275598, v*w=-0.10547766088275598
+================================================================================
+P: A topless man with tattoos , black pants , and black boots is standing on a platform in front of a mirror .
+H: a man is standing
+label=1, predicted=1, correct
+f=pants ,, v=1, w=0.17608845501594036, v*w=0.17608845501594036
+f=black boots, v=1, w=0.1271599011550626, v*w=0.1271599011550626
+f=platform front, v=1, w=0.0513229210096836, v*w=0.0513229210096836
+f=front mirror, v=1, w=0.04832903906692968, v*w=0.04832903906692968
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=boots standing, v=1, w=0.04387092983190735, v*w=0.04387092983190735
+f=mirror ., v=1, w=0.018725328356155164, v*w=0.018725328356155164
+f=, black, v=2, w=0.003351360273092765, v*w=0.00670272054618553
+f=tattoos ,, v=1, w=0, v*w=0
+f=standing platform, v=1, w=0, v*w=0
+f=topless man, v=1, w=-0.011245387895476348, v*w=-0.011245387895476348
+f=man tattoos, v=1, w=-0.051788558683648775, v*w=-0.051788558683648775
+f=man standing, v=1, w=-0.05361957528076239, v*w=-0.05361957528076239
+f=black pants, v=1, w=-0.1277355513782717, v*w=-0.1277355513782717
+================================================================================
+P: The woman in the blue skirt is sleeping on a cardboard box under a picture of Mary and baby Jesus .
+H: A person sleeping on a cardboard box below a picture of religious icons .
+label=1, predicted=1, correct
+f=. person, v=1, w=0.8273373049191419, v*w=0.8273373049191419
+f=sleeping cardboard, v=2, w=0.05041049013188618, v*w=0.10082098026377236
+f=cardboard box, v=2, w=0.016452887896580802, v*w=0.032905775793161604
+f=skirt sleeping, v=1, w=0, v*w=0
+f=box picture, v=2, w=0, v*w=0
+f=picture Mary, v=1, w=0, v*w=0
+f=Mary baby, v=1, w=0, v*w=0
+f=baby Jesus, v=1, w=0, v*w=0
+f=Jesus ., v=1, w=0, v*w=0
+f=person sleeping, v=1, w=0, v*w=0
+f=picture religious, v=1, w=0, v*w=0
+f=religious icons, v=1, w=0, v*w=0
+f=icons ., v=1, w=0, v*w=0
+f=blue skirt, v=1, w=-0.07691379220947597, v*w=-0.07691379220947597
+f=woman blue, v=1, w=-0.18275424693873996, v*w=-0.18275424693873996
+================================================================================
+P: A man in a red shirt plays his guitar while looking down .
+H: A man practicing a song he wrote
+label=0, predicted=0, correct
+f=plays guitar, v=1, w=0.09009343588531535, v*w=0.09009343588531535
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=man red, v=1, w=0.02978540602019527, v*w=0.02978540602019527
+f=red shirt, v=1, w=0.02202942071013346, v*w=0.02202942071013346
+f=practicing song, v=1, w=0, v*w=0
+f=song wrote, v=1, w=0, v*w=0
+f=looking ., v=1, w=-0.023209821442174337, v*w=-0.023209821442174337
+f=guitar looking, v=1, w=-0.05260477817261272, v*w=-0.05260477817261272
+f=shirt plays, v=1, w=-0.12622649562104077, v*w=-0.12622649562104077
+f=man practicing, v=1, w=-0.17787289027998762, v*w=-0.17787289027998762
+================================================================================
+P: A busy street full of shops and people holding hands and walking .
+H: Couples looking for places to shop .
+label=0, predicted=1, wrong
+f=walking ., v=1, w=0.5015678246856647, v*w=0.5015678246856647
+f=people holding, v=1, w=0.27886270349947884, v*w=0.27886270349947884
+f=hands walking, v=1, w=0.02770671933099794, v*w=0.02770671933099794
+f=busy street, v=1, w=0.005014992938914307, v*w=0.005014992938914307
+f=full shops, v=1, w=0, v*w=0
+f=shops people, v=1, w=0, v*w=0
+f=. Couples, v=1, w=0, v*w=0
+f=Couples looking, v=1, w=0, v*w=0
+f=looking places, v=1, w=0, v*w=0
+f=places shop, v=1, w=0, v*w=0
+f=street full, v=1, w=-0.04531631556238235, v*w=-0.04531631556238235
+f=shop ., v=1, w=-0.27624806902071203, v*w=-0.27624806902071203
+f=holding hands, v=1, w=-0.3129228274159995, v*w=-0.3129228274159995
+================================================================================
+P: A cabin shot of a very crowded airplane
+H: The airplane is quite crowded .
+label=1, predicted=0, wrong
+f=crowded ., v=1, w=0.005298951494718664, v*w=0.005298951494718664
+f=cabin shot, v=1, w=0, v*w=0
+f=shot crowded, v=1, w=0, v*w=0
+f=crowded airplane, v=1, w=0, v*w=0
+f=airplane quite, v=1, w=0, v*w=0
+f=quite crowded, v=1, w=0, v*w=0
+f=airplane airplane, v=1, w=-0.04081087939090663, v*w=-0.04081087939090663
+================================================================================
+P: A building that portrays beautiful architecture stands in the sunlight as somebody on a bike passes by .
+H: A bicyclist passes an esthetically beautiful building on a sunny day
+label=1, predicted=0, wrong
+f=passes ., v=1, w=0.006398371513227343, v*w=0.006398371513227343
+f=building portrays, v=1, w=0, v*w=0
+f=portrays beautiful, v=1, w=0, v*w=0
+f=beautiful architecture, v=1, w=0, v*w=0
+f=architecture stands, v=1, w=0, v*w=0
+f=stands sunlight, v=1, w=0, v*w=0
+f=sunlight somebody, v=1, w=0, v*w=0
+f=somebody bike, v=1, w=0, v*w=0
+f=bike passes, v=1, w=0, v*w=0
+f=bicyclist passes, v=1, w=0, v*w=0
+f=passes esthetically, v=1, w=0, v*w=0
+f=esthetically beautiful, v=1, w=0, v*w=0
+f=beautiful building, v=1, w=0, v*w=0
+f=building sunny, v=1, w=0, v*w=0
+f=. bicyclist, v=1, w=-0.1136348133045855, v*w=-0.1136348133045855
+f=sunny day, v=1, w=-0.11991932490122331, v*w=-0.11991932490122331
+================================================================================
+P: A woman with red-hair and wearing a black tank top and short jeans shorts appears to be yelling .
+H: A woman with red-hair and wearing a black tank top screams at her son who is crossing the road without looking both ways .
+label=0, predicted=0, correct
+f=black tank, v=2, w=0.12036169156954962, v*w=0.24072338313909925
+f=woman red-hair, v=2, w=0.04854630899124355, v*w=0.0970926179824871
+f=red-hair wearing, v=2, w=0.042958276819567494, v*w=0.08591655363913499
+f=son crossing, v=1, w=0.050780845024400965, v*w=0.050780845024400965
+f=crossing road, v=1, w=0.04739040576476915, v*w=0.04739040576476915
+f=. woman, v=1, w=0.01661094559395423, v*w=0.01661094559395423
+f=top short, v=1, w=0, v*w=0
+f=short jeans, v=1, w=0, v*w=0
+f=jeans shorts, v=1, w=0, v*w=0
+f=shorts appears, v=1, w=0, v*w=0
+f=appears yelling, v=1, w=0, v*w=0
+f=top screams, v=1, w=0, v*w=0
+f=screams son, v=1, w=0, v*w=0
+f=road without, v=1, w=0, v*w=0
+f=without looking, v=1, w=0, v*w=0
+f=looking ways, v=1, w=0, v*w=0
+f=ways ., v=1, w=0, v*w=0
+f=yelling ., v=1, w=-0.0221308748002546, v*w=-0.0221308748002546
+f=wearing black, v=2, w=-0.12181178488890793, v*w=-0.24362356977781585
+f=tank top, v=2, w=-0.13953090793239564, v*w=-0.2790618158647913
+================================================================================
+P: Two men sitting on a subway are reading , with coats and scarves on , but have seemed to have lost their pants .
+H: There are people on the subway .
+label=1, predicted=1, correct
+f=men sitting, v=1, w=0.1600169694466997, v*w=0.1600169694466997
+f=reading ,, v=1, w=0.06055568402143596, v*w=0.06055568402143596
+f=pants ., v=1, w=0.026975093750606482, v*w=0.026975093750606482
+f=scarves ,, v=1, w=0.02322117439144325, v*w=0.02322117439144325
+f=subway ., v=1, w=0.00023708480431672329, v*w=0.00023708480431672329
+f=sitting subway, v=1, w=0, v*w=0
+f=, coats, v=1, w=0, v*w=0
+f=coats scarves, v=1, w=0, v*w=0
+f=, seemed, v=1, w=0, v*w=0
+f=seemed lost, v=1, w=0, v*w=0
+f=lost pants, v=1, w=0, v*w=0
+f=Two men, v=1, w=-0.007619622136674755, v*w=-0.007619622136674755
+f=people subway, v=1, w=-0.021488694234613775, v*w=-0.021488694234613775
+f=. people, v=1, w=-0.029682947054380297, v*w=-0.029682947054380297
+f=subway reading, v=1, w=-0.08422941895475336, v*w=-0.08422941895475336
+================================================================================
+P: Two Asian women wear sandals , long silk robes and hold umbrellas .
+H: Women in Japan take shelter from the rain
+label=0, predicted=0, correct
+f=umbrellas ., v=1, w=0.025476588933753333, v*w=0.025476588933753333
+f=. Women, v=1, w=0.008630302154903015, v*w=0.008630302154903015
+f=women wear, v=1, w=0, v*w=0
+f=wear sandals, v=1, w=0, v*w=0
+f=long silk, v=1, w=0, v*w=0
+f=silk robes, v=1, w=0, v*w=0
+f=robes hold, v=1, w=0, v*w=0
+f=hold umbrellas, v=1, w=0, v*w=0
+f=Women Japan, v=1, w=0, v*w=0
+f=Japan take, v=1, w=0, v*w=0
+f=take shelter, v=1, w=0, v*w=0
+f=shelter rain, v=1, w=0, v*w=0
+f=, long, v=1, w=-0.0035004469184374376, v*w=-0.0035004469184374376
+f=sandals ,, v=1, w=-0.05546801111560373, v*w=-0.05546801111560373
+f=Asian women, v=1, w=-0.07817813467057746, v*w=-0.07817813467057746
+f=Two Asian, v=1, w=-0.27460110004920973, v*w=-0.27460110004920973
+================================================================================
+P: Seven people are riding bikes on a sandy track .
+H: The people are racing .
+label=0, predicted=0, correct
+f=racing ., v=1, w=0.07682649473184294, v*w=0.07682649473184294
+f=riding bikes, v=1, w=0.032370069906135314, v*w=0.032370069906135314
+f=track ., v=1, w=0.027382431433573138, v*w=0.027382431433573138
+f=bikes sandy, v=1, w=0, v*w=0
+f=. people, v=1, w=-0.029682947054380297, v*w=-0.029682947054380297
+f=people racing, v=1, w=-0.03991272440317771, v*w=-0.03991272440317771
+f=Seven people, v=1, w=-0.040093644299439644, v*w=-0.040093644299439644
+f=sandy track, v=1, w=-0.0494566513427529, v*w=-0.0494566513427529
+f=people riding, v=1, w=-0.1999067699700366, v*w=-0.1999067699700366
+================================================================================
+P: A couple bows their head as a man in a decorative robe reads from a scroll in Asia with a black late model station wagon in the background .
+H: A black late model station wagon is in the background .
+label=1, predicted=0, wrong
+f=. black, v=1, w=0.08493505155182618, v*w=0.08493505155182618
+f=couple bows, v=1, w=0, v*w=0
+f=bows head, v=1, w=0, v*w=0
+f=man decorative, v=1, w=0, v*w=0
+f=decorative robe, v=1, w=0, v*w=0
+f=robe reads, v=1, w=0, v*w=0
+f=reads scroll, v=1, w=0, v*w=0
+f=scroll Asia, v=1, w=0, v*w=0
+f=Asia black, v=1, w=0, v*w=0
+f=black late, v=2, w=0, v*w=0
+f=late model, v=2, w=0, v*w=0
+f=model station, v=2, w=0, v*w=0
+f=station wagon, v=2, w=0, v*w=0
+f=wagon background, v=2, w=0, v*w=0
+f=head man, v=1, w=-0.050171954505908195, v*w=-0.050171954505908195
+f=background ., v=2, w=-0.13360274631717442, v*w=-0.26720549263434884
+================================================================================
+P: Woman reading a book in a laundry room
+H: The book is old .
+label=0, predicted=0, correct
+f=Woman reading, v=1, w=0, v*w=0
+f=book laundry, v=1, w=0, v*w=0
+f=room book, v=1, w=0, v*w=0
+f=book old, v=1, w=0, v*w=0
+f=laundry room, v=1, w=-0.10212154281893038, v*w=-0.10212154281893038
+f=old ., v=1, w=-0.29081609615223286, v*w=-0.29081609615223286
+f=reading book, v=1, w=-0.3096064197777647, v*w=-0.3096064197777647
+================================================================================
+P: A man is standing in front of a building holding heart shaped balloons and a woman is crossing the street .
+H: Someone is holding something outside .
+label=1, predicted=1, correct
+f=. Someone, v=1, w=0.9367361350807547, v*w=0.9367361350807547
+f=outside ., v=1, w=0.9277632420961921, v*w=0.9277632420961921
+f=standing front, v=1, w=0.13078445145014933, v*w=0.13078445145014933
+f=holding something, v=1, w=0.11366715066488411, v*w=0.11366715066488411
+f=something outside, v=1, w=0.08020334897946652, v*w=0.08020334897946652
+f=woman crossing, v=1, w=0.058101978060290375, v*w=0.058101978060290375
+f=building holding, v=1, w=0.03638031722710629, v*w=0.03638031722710629
+f=Someone holding, v=1, w=0.02463072540936452, v*w=0.02463072540936452
+f=holding heart, v=1, w=0, v*w=0
+f=heart shaped, v=1, w=0, v*w=0
+f=shaped balloons, v=1, w=0, v*w=0
+f=balloons woman, v=1, w=0, v*w=0
+f=front building, v=1, w=-0.009061119839445573, v*w=-0.009061119839445573
+f=crossing street, v=1, w=-0.029040343789101305, v*w=-0.029040343789101305
+f=man standing, v=1, w=-0.05361957528076239, v*w=-0.05361957528076239
+f=street ., v=1, w=-0.07833073004082985, v*w=-0.07833073004082985
+================================================================================
+P: Two guys are wearing uniforms who are running in the grass .
+H: Two guys in uniforms are playing a sport on the grass
+label=0, predicted=1, wrong
+f=Two guys, v=2, w=0.28242193197639176, v*w=0.5648438639527835
+f=playing sport, v=1, w=0.2877104440659791, v*w=0.2877104440659791
+f=wearing uniforms, v=1, w=0.08921948166173933, v*w=0.08921948166173933
+f=running grass, v=1, w=0.08317483186782598, v*w=0.08317483186782598
+f=uniforms playing, v=1, w=0.02606140969194174, v*w=0.02606140969194174
+f=uniforms running, v=1, w=0, v*w=0
+f=guys uniforms, v=1, w=0, v*w=0
+f=sport grass, v=1, w=0, v*w=0
+f=. Two, v=1, w=-0.024113948394353026, v*w=-0.024113948394353026
+f=guys wearing, v=1, w=-0.04308367620742186, v*w=-0.04308367620742186
+f=grass ., v=1, w=-0.2990928146155189, v*w=-0.2990928146155189
+================================================================================
+P: Two men in uniforms are in soccer field behind a line waiting to play .
+H: two men waiting to play soccer in May
+label=0, predicted=0, correct
+f=soccer field, v=1, w=0.07426259904713893, v*w=0.07426259904713893
+f=men uniforms, v=1, w=0.039790266746852286, v*w=0.039790266746852286
+f=. two, v=1, w=0.025894099868942245, v*w=0.025894099868942245
+f=uniforms soccer, v=1, w=0, v*w=0
+f=field behind, v=1, w=0, v*w=0
+f=behind line, v=1, w=0, v*w=0
+f=line waiting, v=1, w=0, v*w=0
+f=waiting play, v=2, w=0, v*w=0
+f=soccer May, v=1, w=0, v*w=0
+f=play soccer, v=1, w=-0.004530622234030149, v*w=-0.004530622234030149
+f=Two men, v=1, w=-0.007619622136674755, v*w=-0.007619622136674755
+f=men waiting, v=1, w=-0.02460688321375102, v*w=-0.02460688321375102
+f=play ., v=1, w=-0.08670714524116366, v*w=-0.08670714524116366
+f=two men, v=1, w=-0.3200675378590214, v*w=-0.3200675378590214
+================================================================================
+P: An older gentleman in a blue sports jacket and glasses is talking to a woman in an off-white jacket .
+H: The older man is famous .
+label=0, predicted=0, correct
+f=jacket ., v=1, w=0.19315334393974162, v*w=0.19315334393974162
+f=talking woman, v=1, w=0.11271497831420298, v*w=0.11271497831420298
+f=gentleman blue, v=1, w=0, v*w=0
+f=blue sports, v=1, w=0, v*w=0
+f=sports jacket, v=1, w=0, v*w=0
+f=jacket glasses, v=1, w=0, v*w=0
+f=woman off-white, v=1, w=0, v*w=0
+f=off-white jacket, v=1, w=0, v*w=0
+f=man famous, v=1, w=0, v*w=0
+f=glasses talking, v=1, w=-0.028782533792275068, v*w=-0.028782533792275068
+f=famous ., v=1, w=-0.04323882972013929, v*w=-0.04323882972013929
+f=older gentleman, v=1, w=-0.10547766088275598, v*w=-0.10547766088275598
+f=. older, v=1, w=-0.13515412838863633, v*w=-0.13515412838863633
+f=older man, v=1, w=-0.297170995802237, v*w=-0.297170995802237
+================================================================================
+P: A woman in a purple dress talks on her cellphone and a man reads a book as a two-story bus passes by outside their window .
+H: a woman calls her kids
+label=0, predicted=1, wrong
+f=window ., v=1, w=0.18238528770231793, v*w=0.18238528770231793
+f=outside window, v=1, w=0.09997316266639956, v*w=0.09997316266639956
+f=purple dress, v=1, w=0.0875940822541563, v*w=0.0875940822541563
+f=woman purple, v=1, w=0.07469612506124519, v*w=0.07469612506124519
+f=reads book, v=1, w=0.02454525620027286, v*w=0.02454525620027286
+f=. woman, v=1, w=0.01661094559395423, v*w=0.01661094559395423
+f=dress talks, v=1, w=0, v*w=0
+f=cellphone man, v=1, w=0, v*w=0
+f=book two-story, v=1, w=0, v*w=0
+f=two-story bus, v=1, w=0, v*w=0
+f=bus passes, v=1, w=0, v*w=0
+f=passes outside, v=1, w=0, v*w=0
+f=woman calls, v=1, w=0, v*w=0
+f=calls kids, v=1, w=0, v*w=0
+f=man reads, v=1, w=-0.07973374777159753, v*w=-0.07973374777159753
+f=talks cellphone, v=1, w=-0.09457721254564216, v*w=-0.09457721254564216
+================================================================================
+P: A taxi SUV drives past an urban construction site , as a man walks down the street in the other direction .
+H: An SUV and a man are going in opposite directions .
+label=1, predicted=0, wrong
+f=man walks, v=1, w=0.2736396846148292, v*w=0.2736396846148292
+f=walks street, v=1, w=0.23367983450978572, v*w=0.23367983450978572
+f=construction site, v=1, w=0.059748257940053895, v*w=0.059748257940053895
+f=urban construction, v=1, w=0.04535670894988727, v*w=0.04535670894988727
+f=. SUV, v=1, w=0.04372551479716336, v*w=0.04372551479716336
+f=SUV man, v=1, w=0.028774355357152982, v*w=0.028774355357152982
+f=taxi SUV, v=1, w=0, v*w=0
+f=SUV drives, v=1, w=0, v*w=0
+f=site ,, v=1, w=0, v*w=0
+f=street direction, v=1, w=0, v*w=0
+f=directions ., v=1, w=0, v*w=0
+f=opposite directions, v=1, w=-0.03590848667788172, v*w=-0.03590848667788172
+f=past urban, v=1, w=-0.03778357181043229, v*w=-0.03778357181043229
+f=drives past, v=1, w=-0.040256367597075085, v*w=-0.040256367597075085
+f=direction ., v=1, w=-0.04983360692573351, v*w=-0.04983360692573351
+f=going opposite, v=1, w=-0.05229023009168215, v*w=-0.05229023009168215
+f=man going, v=1, w=-0.33029962968793497, v*w=-0.33029962968793497
+f=, man, v=1, w=-0.44999686895358965, v*w=-0.44999686895358965
+================================================================================
+P: The girl is paddling a rusty canoe in the water .
+H: The girl is in the water .
+label=1, predicted=1, correct
+f=water ., v=2, w=0.2105510679389818, v*w=0.4211021358779636
+f=. girl, v=1, w=0.05310537642392153, v*w=0.05310537642392153
+f=girl paddling, v=1, w=0, v*w=0
+f=paddling rusty, v=1, w=0, v*w=0
+f=rusty canoe, v=1, w=0, v*w=0
+f=canoe water, v=1, w=0, v*w=0
+f=girl water, v=1, w=0, v*w=0
+================================================================================
+P: Two men in shorts hang out at the beach .
+H: The two men are outside .
+label=1, predicted=1, correct
+f=outside ., v=1, w=0.9277632420961921, v*w=0.9277632420961921
+f=men outside, v=1, w=0.16012721946621217, v*w=0.16012721946621217
+f=. two, v=1, w=0.025894099868942245, v*w=0.025894099868942245
+f=shorts hang, v=1, w=0, v*w=0
+f=hang beach, v=1, w=0, v*w=0
+f=Two men, v=1, w=-0.007619622136674755, v*w=-0.007619622136674755
+f=beach ., v=1, w=-0.019344097466175797, v*w=-0.019344097466175797
+f=men shorts, v=1, w=-0.04003144609950656, v*w=-0.04003144609950656
+f=two men, v=1, w=-0.3200675378590214, v*w=-0.3200675378590214
+================================================================================
+P: A man in a black shirt sits next to an old woman in a pink shirt on a train .
+H: A man is sitting next to a lady .
+label=1, predicted=1, correct
+f=man sitting, v=1, w=0.2163387054744875, v*w=0.2163387054744875
+f=woman pink, v=1, w=0.17817631665693762, v*w=0.17817631665693762
+f=old woman, v=1, w=0.14082820621062497, v*w=0.14082820621062497
+f=man black, v=1, w=0.11364843399938854, v*w=0.11364843399938854
+f=sits next, v=1, w=0.09064799727003349, v*w=0.09064799727003349
+f=next old, v=1, w=0.0690937670547023, v*w=0.0690937670547023
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=next lady, v=1, w=0.04653567267321758, v*w=0.04653567267321758
+f=train ., v=1, w=0.022174994273350398, v*w=0.022174994273350398
+f=shirt train, v=1, w=0, v*w=0
+f=pink shirt, v=1, w=-0.026730116030827363, v*w=-0.026730116030827363
+f=lady ., v=1, w=-0.042451550730491984, v*w=-0.042451550730491984
+f=black shirt, v=1, w=-0.07269917968764203, v*w=-0.07269917968764203
+f=sitting next, v=1, w=-0.09004720820599812, v*w=-0.09004720820599812
+f=shirt sits, v=1, w=-0.11210952876464451, v*w=-0.11210952876464451
+================================================================================
+P: A person performing a snowboarding trick on a high mountain .
+H: A man is beating his friend in a snowboarding race .
+label=0, predicted=0, correct
+f=trick high, v=1, w=0.07046299625078496, v*w=0.07046299625078496
+f=mountain ., v=1, w=0.0471393899083345, v*w=0.0471393899083345
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=performing snowboarding, v=1, w=0, v*w=0
+f=snowboarding trick, v=1, w=0, v*w=0
+f=high mountain, v=1, w=0, v*w=0
+f=man beating, v=1, w=0, v*w=0
+f=beating friend, v=1, w=0, v*w=0
+f=friend snowboarding, v=1, w=0, v*w=0
+f=snowboarding race, v=1, w=0, v*w=0
+f=person performing, v=1, w=-0.0667211943346599, v*w=-0.0667211943346599
+f=race ., v=1, w=-0.33446019839408025, v*w=-0.33446019839408025
+================================================================================
+P: A biker wearing a white t-shirt is jumping over dirt hills .
+H: A person jumps over hills with his bike .
+label=1, predicted=1, correct
+f=. person, v=1, w=0.8273373049191419, v*w=0.8273373049191419
+f=bike ., v=1, w=0.11176606548167425, v*w=0.11176606548167425
+f=hills ., v=1, w=0.06446797527090795, v*w=0.06446797527090795
+f=jumping dirt, v=1, w=0.033557728087095895, v*w=0.033557728087095895
+f=biker wearing, v=1, w=0, v*w=0
+f=t-shirt jumping, v=1, w=0, v*w=0
+f=dirt hills, v=1, w=0, v*w=0
+f=person jumps, v=1, w=0, v*w=0
+f=jumps hills, v=1, w=0, v*w=0
+f=hills bike, v=1, w=0, v*w=0
+f=white t-shirt, v=1, w=-0.21146707779391355, v*w=-0.21146707779391355
+f=wearing white, v=1, w=-0.2905280215618141, v*w=-0.2905280215618141
+================================================================================
+P: A float depicting religious imagery .
+H: A float with icons .
+label=1, predicted=1, correct
+f=imagery ., v=1, w=0.045003785009203864, v*w=0.045003785009203864
+f=float depicting, v=1, w=0, v*w=0
+f=depicting religious, v=1, w=0, v*w=0
+f=religious imagery, v=1, w=0, v*w=0
+f=. float, v=1, w=0, v*w=0
+f=float icons, v=1, w=0, v*w=0
+f=icons ., v=1, w=0, v*w=0
+================================================================================
+P: A man in yellow , white , and blue bicycle clothing and helmet grimaces as he rides his bicycle .
+H: A man is riding a bicycle .
+label=1, predicted=1, correct
+f=yellow ,, v=1, w=0.24565435481181827, v*w=0.24565435481181827
+f=rides bicycle, v=1, w=0.1548689106406283, v*w=0.1548689106406283
+f=man riding, v=1, w=0.13659803338325208, v*w=0.13659803338325208
+f=riding bicycle, v=1, w=0.11008021248616058, v*w=0.11008021248616058
+f=, blue, v=1, w=0.06276401831113414, v*w=0.06276401831113414
+f=man yellow, v=1, w=0.052094456098930875, v*w=0.052094456098930875
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=white ,, v=1, w=0.041254848344215854, v*w=0.041254848344215854
+f=bicycle ., v=2, w=0.013373143561627289, v*w=0.026746287123254577
+f=blue bicycle, v=1, w=0, v*w=0
+f=bicycle clothing, v=1, w=0, v*w=0
+f=clothing helmet, v=1, w=0, v*w=0
+f=helmet grimaces, v=1, w=0, v*w=0
+f=grimaces rides, v=1, w=0, v*w=0
+f=, white, v=1, w=-0.10249995573376795, v*w=-0.10249995573376795
+================================================================================
+P: A group of girls ride an ATV .
+H: Girls ride ATVs .
+label=1, predicted=1, correct
+f=group girls, v=1, w=0.11363994976240675, v*w=0.11363994976240675
+f=girls ride, v=1, w=0.09026877370513581, v*w=0.09026877370513581
+f=. Girls, v=1, w=0.012464086305020258, v*w=0.012464086305020258
+f=ride ATV, v=1, w=0, v*w=0
+f=ATV ., v=1, w=0, v*w=0
+f=Girls ride, v=1, w=0, v*w=0
+f=ride ATVs, v=1, w=0, v*w=0
+f=ATVs ., v=1, w=0, v*w=0
+================================================================================
+P: A schoolgirl wearing a white dress , blue-striped knee socks , a blue tie , and braids , smiles in front of a line of her classmates .
+H: A line of schoolchildren preparing to board a bus after their field trip .
+label=0, predicted=0, correct
+f=, smiles, v=1, w=0.11142241399843258, v*w=0.11142241399843258
+f=, blue, v=1, w=0.06276401831113414, v*w=0.06276401831113414
+f=dress ,, v=1, w=0.03124522836926365, v*w=0.03124522836926365
+f=schoolgirl wearing, v=1, w=0, v*w=0
+f=, blue-striped, v=1, w=0, v*w=0
+f=blue-striped knee, v=1, w=0, v*w=0
+f=knee socks, v=1, w=0, v*w=0
+f=socks ,, v=1, w=0, v*w=0
+f=blue tie, v=1, w=0, v*w=0
+f=, braids, v=1, w=0, v*w=0
+f=braids ,, v=1, w=0, v*w=0
+f=front line, v=1, w=0, v*w=0
+f=line classmates, v=1, w=0, v*w=0
+f=classmates ., v=1, w=0, v*w=0
+f=line schoolchildren, v=1, w=0, v*w=0
+f=schoolchildren preparing, v=1, w=0, v*w=0
+f=preparing board, v=1, w=0, v*w=0
+f=board bus, v=1, w=0, v*w=0
+f=bus field, v=1, w=0, v*w=0
+f=. line, v=1, w=-0.030141342784229794, v*w=-0.030141342784229794
+f=tie ,, v=1, w=-0.03563785147499942, v*w=-0.03563785147499942
+f=smiles front, v=1, w=-0.041842890099541376, v*w=-0.041842890099541376
+f=field trip, v=1, w=-0.08024267864155278, v*w=-0.08024267864155278
+f=white dress, v=1, w=-0.14732544144482085, v*w=-0.14732544144482085
+f=trip ., v=1, w=-0.2900860745047938, v*w=-0.2900860745047938
+f=wearing white, v=1, w=-0.2905280215618141, v*w=-0.2905280215618141
+================================================================================
+P: A boy plays in the surf .
+H: The boy is wearing red trunks .
+label=0, predicted=1, wrong
+f=boy wearing, v=1, w=0.09944660865677384, v*w=0.09944660865677384
+f=boy plays, v=1, w=0.08557975616993917, v*w=0.08557975616993917
+f=red trunks, v=1, w=0.06366672650011887, v*w=0.06366672650011887
+f=trunks ., v=1, w=0.03949468094776644, v*w=0.03949468094776644
+f=plays surf, v=1, w=0, v*w=0
+f=wearing red, v=1, w=-0.01071678550266308, v*w=-0.01071678550266308
+f=surf ., v=1, w=-0.024192763958628998, v*w=-0.024192763958628998
+f=. boy, v=1, w=-0.10373494772609256, v*w=-0.10373494772609256
+================================================================================
+P: A man is sitting outside next to fruit .
+H: A man takes a break next to his freshly picked fruit .
+label=0, predicted=0, correct
+f=man sitting, v=1, w=0.2163387054744875, v*w=0.2163387054744875
+f=sitting outside, v=1, w=0.06670824042805777, v*w=0.06670824042805777
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=next fruit, v=1, w=0, v*w=0
+f=break next, v=1, w=0, v*w=0
+f=next freshly, v=1, w=0, v*w=0
+f=freshly picked, v=1, w=0, v*w=0
+f=picked fruit, v=1, w=0, v*w=0
+f=outside next, v=1, w=-0.051123579966344354, v*w=-0.051123579966344354
+f=man takes, v=1, w=-0.14688254655734845, v*w=-0.14688254655734845
+f=takes break, v=1, w=-0.1675336355565244, v*w=-0.1675336355565244
+f=fruit ., v=2, w=-0.13713528835142796, v*w=-0.27427057670285593
+================================================================================
+P: A person on a brown horse in a prairie in front of tall mountains .
+H: The horseback rider is traveling from one ranch to another
+label=0, predicted=0, correct
+f=person brown, v=1, w=0.031235597673640994, v*w=0.031235597673640994
+f=mountains ., v=1, w=0.0310391168690457, v*w=0.0310391168690457
+f=horse prairie, v=1, w=0, v*w=0
+f=prairie front, v=1, w=0, v*w=0
+f=tall mountains, v=1, w=0, v*w=0
+f=. horseback, v=1, w=0, v*w=0
+f=horseback rider, v=1, w=0, v*w=0
+f=rider traveling, v=1, w=0, v*w=0
+f=traveling one, v=1, w=0, v*w=0
+f=one ranch, v=1, w=0, v*w=0
+f=ranch another, v=1, w=0, v*w=0
+f=front tall, v=1, w=-0.035337824514455524, v*w=-0.035337824514455524
+f=brown horse, v=1, w=-0.08627135706715766, v*w=-0.08627135706715766
+================================================================================
+P: A brown dog leaps into water from a rock .
+H: A dog is outside .
+label=1, predicted=1, correct
+f=outside ., v=1, w=0.9277632420961921, v*w=0.9277632420961921
+f=rock ., v=1, w=0.1784655993404657, v*w=0.1784655993404657
+f=. dog, v=1, w=0.11809821413578671, v*w=0.11809821413578671
+f=dog outside, v=1, w=0.05491819904632396, v*w=0.05491819904632396
+f=leaps water, v=1, w=0, v*w=0
+f=water rock, v=1, w=0, v*w=0
+f=brown dog, v=1, w=-0.012668616372755712, v*w=-0.012668616372755712
+f=dog leaps, v=1, w=-0.03676450568928402, v*w=-0.03676450568928402
+================================================================================
+P: A man wearing an apron is smiling at a plate of food .
+H: The man is happy by the sight of the food before him .
+label=1, predicted=0, wrong
+f=plate food, v=1, w=0.08080833779636064, v*w=0.08080833779636064
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=food ., v=2, w=0.0202353641453992, v*w=0.0404707282907984
+f=smiling plate, v=1, w=0, v*w=0
+f=happy sight, v=1, w=0, v*w=0
+f=sight food, v=1, w=0, v*w=0
+f=man wearing, v=1, w=-0.0017201360089045114, v*w=-0.0017201360089045114
+f=apron smiling, v=1, w=-0.0484775935762538, v*w=-0.0484775935762538
+f=man happy, v=1, w=-0.07962655343007743, v*w=-0.07962655343007743
+f=wearing apron, v=1, w=-0.17182894838192161, v*w=-0.17182894838192161
+================================================================================
+P: These three men dressed in blue , yellow and white , are playing a sport .
+H: The men are playing football .
+label=0, predicted=1, wrong
+f=men playing, v=1, w=0.3430070770090033, v*w=0.3430070770090033
+f=football ., v=1, w=0.2963082983170911, v*w=0.2963082983170911
+f=playing sport, v=1, w=0.2877104440659791, v*w=0.2877104440659791
+f=men dressed, v=1, w=0.2645068805861806, v*w=0.2645068805861806
+f=, yellow, v=1, w=0.24756068379211188, v*w=0.24756068379211188
+f=sport ., v=1, w=0.22781375123893044, v*w=0.22781375123893044
+f=three men, v=1, w=0.22629473501452596, v*w=0.22629473501452596
+f=yellow white, v=1, w=0.17590122465708163, v*w=0.17590122465708163
+f=playing football, v=1, w=0.13298158489129305, v*w=0.13298158489129305
+f=blue ,, v=1, w=0.0504658300672466, v*w=0.0504658300672466
+f=white ,, v=1, w=0.041254848344215854, v*w=0.041254848344215854
+f=, playing, v=1, w=-0.002179722637520558, v*w=-0.002179722637520558
+f=dressed blue, v=1, w=-0.08156605461573208, v*w=-0.08156605461573208
+f=. men, v=1, w=-0.15336815098996376, v*w=-0.15336815098996376
+================================================================================
+P: Two girls are playing tug-of-war and losing as the girl in front is drug into a muddy puddle of water .
+H: Some girls are competing .
+label=1, predicted=0, wrong
+f=water ., v=1, w=0.2105510679389818, v*w=0.2105510679389818
+f=playing tug-of-war, v=1, w=0.05101645180095766, v*w=0.05101645180095766
+f=tug-of-war losing, v=1, w=0, v*w=0
+f=losing girl, v=1, w=0, v*w=0
+f=front drug, v=1, w=0, v*w=0
+f=drug muddy, v=1, w=0, v*w=0
+f=muddy puddle, v=1, w=0, v*w=0
+f=girls playing, v=1, w=-0.006194185508940344, v*w=-0.006194185508940344
+f=puddle water, v=1, w=-0.010465492884113201, v*w=-0.010465492884113201
+f=girl front, v=1, w=-0.03709532722441018, v*w=-0.03709532722441018
+f=girls competing, v=1, w=-0.05705150674970236, v*w=-0.05705150674970236
+f=Two girls, v=1, w=-0.11717460816610567, v*w=-0.11717460816610567
+f=competing ., v=1, w=-0.17171453983793425, v*w=-0.17171453983793425
+f=. girls, v=1, w=-0.24347596343882186, v*w=-0.24347596343882186
+================================================================================
+P: A man is holding a very long leash attached to a very large dog who is smelling the grass .
+H: A man is walking a brown dog
+label=0, predicted=1, wrong
+f=man holding, v=1, w=0.2860623289497307, v*w=0.2860623289497307
+f=man walking, v=1, w=0.15050219415963295, v*w=0.15050219415963295
+f=dog smelling, v=1, w=0.04929113121429956, v*w=0.04929113121429956
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=leash attached, v=1, w=0.0337210865141436, v*w=0.0337210865141436
+f=holding long, v=1, w=0, v*w=0
+f=long leash, v=1, w=0, v*w=0
+f=attached large, v=1, w=0, v*w=0
+f=smelling grass, v=1, w=0, v*w=0
+f=walking brown, v=1, w=0, v*w=0
+f=brown dog, v=1, w=-0.012668616372755712, v*w=-0.012668616372755712
+f=large dog, v=1, w=-0.020481959723250398, v*w=-0.020481959723250398
+f=grass ., v=1, w=-0.2990928146155189, v*w=-0.2990928146155189
+================================================================================
+P: Three men ; one pedaling while playing drums , one playing piano and one both pedaling and steering , move a type of mobile band down a street .
+H: Three men are playing outside
+label=1, predicted=0, wrong
+f=men playing, v=1, w=0.3430070770090033, v*w=0.3430070770090033
+f=playing outside, v=1, w=0.13422155492548285, v*w=0.13422155492548285
+f=playing piano, v=1, w=0.053039453406940114, v*w=0.053039453406940114
+f=men ;, v=1, w=0.04720156630764535, v*w=0.04720156630764535
+f=, move, v=1, w=0.04516930518993184, v*w=0.04516930518993184
+f=; one, v=1, w=0.019677738490961137, v*w=0.019677738490961137
+f=one pedaling, v=2, w=0, v*w=0
+f=pedaling playing, v=1, w=0, v*w=0
+f=piano one, v=1, w=0, v*w=0
+f=pedaling steering, v=1, w=0, v*w=0
+f=steering ,, v=1, w=0, v*w=0
+f=move type, v=1, w=0, v*w=0
+f=type mobile, v=1, w=0, v*w=0
+f=mobile band, v=1, w=0, v*w=0
+f=band street, v=1, w=0, v*w=0
+f=drums ,, v=1, w=-0.025677492433056136, v*w=-0.025677492433056136
+f=street ., v=1, w=-0.07833073004082985, v*w=-0.07833073004082985
+f=, one, v=1, w=-0.10671955430309765, v*w=-0.10671955430309765
+f=. Three, v=1, w=-0.11818939381465876, v*w=-0.11818939381465876
+f=one playing, v=1, w=-0.15169958704460548, v*w=-0.15169958704460548
+f=playing drums, v=1, w=-0.22863008197584817, v*w=-0.22863008197584817
+f=Three men, v=2, w=-0.13350839045211016, v*w=-0.2670167809042203
+================================================================================
+P: A man with an orange jacket , takes the photo of four women , and a man in a greenish yellow suite .
+H: A man is photographing five people .
+label=1, predicted=0, wrong
+f=people ., v=1, w=0.3456213588671529, v*w=0.3456213588671529
+f=jacket ,, v=1, w=0.15411039212151148, v*w=0.15411039212151148
+f=five people, v=1, w=0.1391988457730356, v*w=0.1391988457730356
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=yellow suite, v=1, w=0.03844438312542985, v*w=0.03844438312542985
+f=takes photo, v=1, w=0.01380351142591014, v*w=0.01380351142591014
+f=photo four, v=1, w=0, v*w=0
+f=man greenish, v=1, w=0, v*w=0
+f=greenish yellow, v=1, w=0, v*w=0
+f=suite ., v=1, w=0, v*w=0
+f=man photographing, v=1, w=0, v*w=0
+f=photographing five, v=1, w=0, v*w=0
+f=four women, v=1, w=-0.00495370782615381, v*w=-0.00495370782615381
+f=, takes, v=1, w=-0.10620825733820612, v*w=-0.10620825733820612
+f=women ,, v=1, w=-0.12297403766721812, v*w=-0.12297403766721812
+f=man orange, v=1, w=-0.13458678140588465, v*w=-0.13458678140588465
+f=orange jacket, v=1, w=-0.13984669412168757, v*w=-0.13984669412168757
+f=, man, v=1, w=-0.44999686895358965, v*w=-0.44999686895358965
+================================================================================
+P: A man prepares to enter the red building .
+H: The man prepared to enter the building for his interview .
+label=0, predicted=0, correct
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=man prepared, v=1, w=0.04464004053829512, v*w=0.04464004053829512
+f=prepares enter, v=1, w=0, v*w=0
+f=enter red, v=1, w=0, v*w=0
+f=prepared enter, v=1, w=0, v*w=0
+f=building interview, v=1, w=0, v*w=0
+f=interview ., v=1, w=-0.004975940605596597, v*w=-0.004975940605596597
+f=enter building, v=1, w=-0.04329448925225391, v*w=-0.04329448925225391
+f=red building, v=1, w=-0.08899231787816457, v*w=-0.08899231787816457
+f=man prepares, v=1, w=-0.12785131046265208, v*w=-0.12785131046265208
+f=building ., v=1, w=-0.1335910826204918, v*w=-0.1335910826204918
+================================================================================
+P: People sitting down , walking around and , taking pictures outside of a building .
+H: People are taking pictures of various things .
+label=0, predicted=0, correct
+f=. People, v=1, w=0.42359099904928355, v*w=0.42359099904928355
+f=sitting ,, v=1, w=0.11357066003007037, v*w=0.11357066003007037
+f=around ,, v=1, w=0.03425856702614655, v*w=0.03425856702614655
+f=things ., v=1, w=0.032470284266802915, v*w=0.032470284266802915
+f=pictures various, v=1, w=0, v*w=0
+f=, taking, v=1, w=-0.014354962036314006, v*w=-0.014354962036314006
+f=walking around, v=1, w=-0.022428936515589602, v*w=-0.022428936515589602
+f=People taking, v=1, w=-0.04382026477636292, v*w=-0.04382026477636292
+f=various things, v=1, w=-0.04526397420778518, v*w=-0.04526397420778518
+f=pictures outside, v=1, w=-0.057921070056971974, v*w=-0.057921070056971974
+f=outside building, v=1, w=-0.07105439788202308, v*w=-0.07105439788202308
+f=People sitting, v=1, w=-0.07584758375629053, v*w=-0.07584758375629053
+f=building ., v=1, w=-0.1335910826204918, v*w=-0.1335910826204918
+f=, walking, v=1, w=-0.14031418652387062, v*w=-0.14031418652387062
+f=taking pictures, v=2, w=-0.2080977077358848, v*w=-0.4161954154717696
+================================================================================
+P: Three men with blue jerseys try to score a goal in soccer against the other team in white jerseys and their goalie in green .
+H: The goalie is one of the best , and it is hard for the men on the other team to score .
+label=0, predicted=0, correct
+f=soccer team, v=1, w=0.09843034948651146, v*w=0.09843034948651146
+f=. goalie, v=1, w=0.043024542571838346, v*w=0.043024542571838346
+f=jerseys try, v=1, w=0.040184396054552825, v*w=0.040184396054552825
+f=white jerseys, v=1, w=0.040184396054552825, v*w=0.040184396054552825
+f=, hard, v=1, w=0.038637984427900146, v*w=0.038637984427900146
+f=men team, v=1, w=0.004424838828479597, v*w=0.004424838828479597
+f=blue jerseys, v=1, w=0, v*w=0
+f=goal soccer, v=1, w=0, v*w=0
+f=jerseys goalie, v=1, w=0, v*w=0
+f=goalie green, v=1, w=0, v*w=0
+f=goalie one, v=1, w=0, v*w=0
+f=one best, v=1, w=0, v*w=0
+f=best ,, v=1, w=0, v*w=0
+f=hard men, v=1, w=0, v*w=0
+f=score ., v=1, w=0, v*w=0
+f=men blue, v=1, w=-0.016687903496867666, v*w=-0.016687903496867666
+f=green ., v=1, w=-0.028229583493745058, v*w=-0.028229583493745058
+f=team white, v=1, w=-0.035651224886507085, v*w=-0.035651224886507085
+f=team score, v=1, w=-0.036131054041656036, v*w=-0.036131054041656036
+f=try score, v=1, w=-0.053370968217756234, v*w=-0.053370968217756234
+f=Three men, v=1, w=-0.13350839045211016, v*w=-0.13350839045211016
+f=score goal, v=1, w=-0.19457986981738262, v*w=-0.19457986981738262
+================================================================================
+P: A brown dog with a blue muzzle is running on green grass .
+H: A brown dog is wearing a muzzle .
+label=1, predicted=0, wrong
+f=running green, v=1, w=0.0215794524193389, v*w=0.0215794524193389
+f=green grass, v=1, w=0.002730214001973106, v*w=0.002730214001973106
+f=dog wearing, v=1, w=0.000853974916560806, v*w=0.000853974916560806
+f=blue muzzle, v=1, w=0, v*w=0
+f=muzzle running, v=1, w=0, v*w=0
+f=wearing muzzle, v=1, w=0, v*w=0
+f=muzzle ., v=1, w=0, v*w=0
+f=brown dog, v=2, w=-0.012668616372755712, v*w=-0.025337232745511425
+f=dog blue, v=1, w=-0.06053457536631157, v*w=-0.06053457536631157
+f=. brown, v=1, w=-0.11193829619633613, v*w=-0.11193829619633613
+f=grass ., v=1, w=-0.2990928146155189, v*w=-0.2990928146155189
+================================================================================
+P: A woman walking across an old rope and driftrood bridge between mountains .
+H: A woman walking on a bridge in a mountain .
+label=1, predicted=1, correct
+f=walking across, v=1, w=0.2423025957700556, v*w=0.2423025957700556
+f=woman walking, v=2, w=0.06104149229714561, v*w=0.12208298459429122
+f=mountain ., v=1, w=0.0471393899083345, v*w=0.0471393899083345
+f=mountains ., v=1, w=0.0310391168690457, v*w=0.0310391168690457
+f=. woman, v=1, w=0.01661094559395423, v*w=0.01661094559395423
+f=across old, v=1, w=0, v*w=0
+f=old rope, v=1, w=0, v*w=0
+f=rope driftrood, v=1, w=0, v*w=0
+f=driftrood bridge, v=1, w=0, v*w=0
+f=bridge mountains, v=1, w=0, v*w=0
+f=bridge mountain, v=1, w=0, v*w=0
+f=walking bridge, v=1, w=-0.08364587031941012, v*w=-0.08364587031941012
+================================================================================
+P: A young girl wearing a pink coat plays with a yellow toy golf club .
+H: A girl is playing .
+label=1, predicted=1, correct
+f=playing ., v=1, w=0.48117602840587836, v*w=0.48117602840587836
+f=club ., v=1, w=0.11360326551410618, v*w=0.11360326551410618
+f=yellow toy, v=1, w=0.0786071851403041, v*w=0.0786071851403041
+f=. girl, v=1, w=0.05310537642392153, v*w=0.05310537642392153
+f=pink coat, v=1, w=0.04589366644592646, v*w=0.04589366644592646
+f=girl wearing, v=1, w=0.04027096167640118, v*w=0.04027096167640118
+f=girl playing, v=1, w=0.01839164189323811, v*w=0.01839164189323811
+f=coat plays, v=1, w=0, v*w=0
+f=plays yellow, v=1, w=0, v*w=0
+f=golf club, v=1, w=0, v*w=0
+f=young girl, v=1, w=-0.008295034854556835, v*w=-0.008295034854556835
+f=toy golf, v=1, w=-0.038404501294247356, v*w=-0.038404501294247356
+f=wearing pink, v=1, w=-0.1872963519134712, v*w=-0.1872963519134712
+================================================================================
+P: A man in black reading a book for a group of people .
+H: The man is reading .
+label=1, predicted=1, correct
+f=people ., v=1, w=0.3456213588671529, v*w=0.3456213588671529
+f=reading ., v=1, w=0.2042386314313967, v*w=0.2042386314313967
+f=man black, v=1, w=0.11364843399938854, v*w=0.11364843399938854
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=black reading, v=1, w=0, v*w=0
+f=book group, v=1, w=0, v*w=0
+f=man reading, v=1, w=-0.12797497919435213, v*w=-0.12797497919435213
+f=group people, v=1, w=-0.24068914004354322, v*w=-0.24068914004354322
+f=reading book, v=1, w=-0.3096064197777647, v*w=-0.3096064197777647
+================================================================================
+P: A surfer is surfing catches a wave .
+H: A surfer is riding a tsunami wave .
+label=0, predicted=1, wrong
+f=catches wave, v=1, w=0.08371845013040391, v*w=0.08371845013040391
+f=wave ., v=2, w=0.01943071263757979, v*w=0.03886142527515958
+f=. surfer, v=1, w=0.03268441701534847, v*w=0.03268441701534847
+f=surfer surfing, v=1, w=0, v*w=0
+f=surfing catches, v=1, w=0, v*w=0
+f=riding tsunami, v=1, w=0, v*w=0
+f=tsunami wave, v=1, w=0, v*w=0
+f=surfer riding, v=1, w=-0.00430818424416847, v*w=-0.00430818424416847
+================================================================================
+P: An Asian man is cooking food .
+H: The man is in a kitchen .
+label=0, predicted=1, wrong
+f=Asian man, v=1, w=0.22155957037606303, v*w=0.22155957037606303
+f=man cooking, v=1, w=0.11141357373170396, v*w=0.11141357373170396
+f=kitchen ., v=1, w=0.10001677104763756, v*w=0.10001677104763756
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=food ., v=1, w=0.0202353641453992, v*w=0.0202353641453992
+f=man kitchen, v=1, w=0, v*w=0
+f=cooking food, v=1, w=-0.1800023603101909, v*w=-0.1800023603101909
+================================================================================
+P: Two young women are crossing a street just after a yellow school bus has passed by .
+H: Two women coming home after school .
+label=0, predicted=0, correct
+f=street yellow, v=1, w=0.09069376034271917, v*w=0.09069376034271917
+f=passed ., v=1, w=0.035851031747442766, v*w=0.035851031747442766
+f=yellow school, v=1, w=0, v*w=0
+f=bus passed, v=1, w=0, v*w=0
+f=women coming, v=1, w=0, v*w=0
+f=. Two, v=1, w=-0.024113948394353026, v*w=-0.024113948394353026
+f=crossing street, v=1, w=-0.029040343789101305, v*w=-0.029040343789101305
+f=school bus, v=1, w=-0.03541583162360774, v*w=-0.03541583162360774
+f=young women, v=1, w=-0.03729849320421734, v*w=-0.03729849320421734
+f=coming home, v=1, w=-0.04049106645176151, v*w=-0.04049106645176151
+f=Two young, v=1, w=-0.07077091981446178, v*w=-0.07077091981446178
+f=home school, v=1, w=-0.07493077034748995, v*w=-0.07493077034748995
+f=women crossing, v=1, w=-0.07899730288879075, v*w=-0.07899730288879075
+f=Two women, v=1, w=-0.07935629115486563, v*w=-0.07935629115486563
+f=school ., v=1, w=-0.28694868500451337, v*w=-0.28694868500451337
+================================================================================
+P: Two grownups are waiting for the bus to arrive on a cold day .
+H: They are waiting for the bus to pick them up .
+label=1, predicted=0, wrong
+f=waiting bus, v=2, w=0.04766683525593367, v*w=0.09533367051186734
+f=pick ., v=1, w=0.02237288293522715, v*w=0.02237288293522715
+f=Two grownups, v=1, w=0, v*w=0
+f=grownups waiting, v=1, w=0, v*w=0
+f=arrive cold, v=1, w=0, v*w=0
+f=bus pick, v=1, w=0, v*w=0
+f=bus arrive, v=1, w=-0.028415338241437705, v*w=-0.028415338241437705
+f=cold day, v=1, w=-0.04244204057636145, v*w=-0.04244204057636145
+f=. waiting, v=1, w=-0.09976582719942437, v*w=-0.09976582719942437
+f=day ., v=1, w=-0.4261914474448209, v*w=-0.4261914474448209
+================================================================================
+P: The lady in the red jacket is helping the other lady decide what to buy .
+H: The 2 ladies are related .
+label=0, predicted=1, wrong
+f=. 2, v=1, w=0.11103468007311643, v*w=0.11103468007311643
+f=red jacket, v=1, w=0.062153251555318076, v*w=0.062153251555318076
+f=buy ., v=1, w=0.052020525242035445, v*w=0.052020525242035445
+f=jacket helping, v=1, w=0, v*w=0
+f=helping lady, v=1, w=0, v*w=0
+f=lady decide, v=1, w=0, v*w=0
+f=decide buy, v=1, w=0, v*w=0
+f=2 ladies, v=1, w=0, v*w=0
+f=ladies related, v=1, w=0, v*w=0
+f=lady red, v=1, w=-0.029686052309935193, v*w=-0.029686052309935193
+f=related ., v=1, w=-0.08225571691730296, v*w=-0.08225571691730296
+================================================================================
+P: A person is surfing on a large wave .
+H: The person is in a surfing competition .
+label=0, predicted=1, wrong
+f=. person, v=1, w=0.8273373049191419, v*w=0.8273373049191419
+f=person surfing, v=2, w=0.03119554352822003, v*w=0.06239108705644006
+f=wave ., v=1, w=0.01943071263757979, v*w=0.01943071263757979
+f=surfing competition, v=1, w=0, v*w=0
+f=surfing large, v=1, w=-0.082741382871308, v*w=-0.082741382871308
+f=large wave, v=1, w=-0.16837267066769643, v*w=-0.16837267066769643
+f=competition ., v=1, w=-0.3362065432337504, v*w=-0.3362065432337504
+================================================================================
+P: A girl in a field with a yellow scarf .
+H: The girl is outdoors .
+label=1, predicted=1, correct
+f=outdoors ., v=1, w=1.0605356018295922, v*w=1.0605356018295922
+f=. girl, v=1, w=0.05310537642392153, v*w=0.05310537642392153
+f=girl field, v=1, w=0, v*w=0
+f=girl outdoors, v=1, w=-0.04100059509703359, v*w=-0.04100059509703359
+f=field yellow, v=1, w=-0.05026446397827622, v*w=-0.05026446397827622
+f=yellow scarf, v=1, w=-0.053657818771393015, v*w=-0.053657818771393015
+f=scarf ., v=1, w=-0.1337166355605568, v*w=-0.1337166355605568
+================================================================================
+P: Two young girls dressed in pink reach into wishing fountain at mall .
+H: Girls try to get back the money they threw into the fountain .
+label=0, predicted=0, correct
+f=dressed pink, v=1, w=0.24015564607122966, v*w=0.24015564607122966
+f=girls dressed, v=1, w=0.21278260093192658, v*w=0.21278260093192658
+f=fountain ., v=1, w=0.06911226680543299, v*w=0.06911226680543299
+f=try get, v=1, w=0.04127178995558483, v*w=0.04127178995558483
+f=. Girls, v=1, w=0.012464086305020258, v*w=0.012464086305020258
+f=pink reach, v=1, w=0, v*w=0
+f=reach wishing, v=1, w=0, v*w=0
+f=wishing fountain, v=1, w=0, v*w=0
+f=fountain mall, v=1, w=0, v*w=0
+f=Girls try, v=1, w=0, v*w=0
+f=get back, v=1, w=0, v*w=0
+f=back money, v=1, w=0, v*w=0
+f=money threw, v=1, w=0, v*w=0
+f=threw fountain, v=1, w=0, v*w=0
+f=Two young, v=1, w=-0.07077091981446178, v*w=-0.07077091981446178
+f=mall ., v=1, w=-0.2566030648660944, v*w=-0.2566030648660944
+f=young girls, v=1, w=-0.39140531439803294, v*w=-0.39140531439803294
+================================================================================
+P: 3 people walking through a small field .
+H: Three people in a medow of flowers .
+label=0, predicted=1, wrong
+f=3 people, v=1, w=0.18547432211540527, v*w=0.18547432211540527
+f=Three people, v=1, w=0.1840165169362268, v*w=0.1840165169362268
+f=people walking, v=1, w=0.11557889361390994, v*w=0.11557889361390994
+f=small field, v=1, w=0.028243716974148375, v*w=0.028243716974148375
+f=people medow, v=1, w=0, v*w=0
+f=medow flowers, v=1, w=0, v*w=0
+f=walking small, v=1, w=-0.04150300831312897, v*w=-0.04150300831312897
+f=flowers ., v=1, w=-0.07556943081939436, v*w=-0.07556943081939436
+f=field ., v=1, w=-0.09581460555491084, v*w=-0.09581460555491084
+f=. Three, v=1, w=-0.11818939381465876, v*w=-0.11818939381465876
+================================================================================
+P: Dozens of street performers in fuchsia , red , yellow and black outfits are dancing and singing along a city street .
+H: Many performers in colorful costumes were entertaining in the streets .
+label=1, predicted=0, wrong
+f=, yellow, v=1, w=0.24756068379211188, v*w=0.24756068379211188
+f=. Many, v=1, w=0.09722780101449227, v*w=0.09722780101449227
+f=yellow black, v=1, w=0.05108113110011014, v*w=0.05108113110011014
+f=colorful costumes, v=1, w=0.049522495723624674, v*w=0.049522495723624674
+f=dancing singing, v=1, w=0.043297290519874965, v*w=0.043297290519874965
+f=singing along, v=1, w=0.041645160786114806, v*w=0.041645160786114806
+f=along city, v=1, w=0.0035455355187968313, v*w=0.0035455355187968313
+f=Dozens street, v=1, w=0, v*w=0
+f=performers fuchsia, v=1, w=0, v*w=0
+f=fuchsia ,, v=1, w=0, v*w=0
+f=black outfits, v=1, w=0, v*w=0
+f=outfits dancing, v=1, w=0, v*w=0
+f=Many performers, v=1, w=0, v*w=0
+f=performers colorful, v=1, w=0, v*w=0
+f=costumes entertaining, v=1, w=0, v*w=0
+f=entertaining streets, v=1, w=0, v*w=0
+f=red ,, v=1, w=-0.054940823565786494, v*w=-0.054940823565786494
+f=city street, v=1, w=-0.05806500606699588, v*w=-0.05806500606699588
+f=street ., v=1, w=-0.07833073004082985, v*w=-0.07833073004082985
+f=streets ., v=1, w=-0.08778384604271611, v*w=-0.08778384604271611
+f=, red, v=1, w=-0.1026415526965872, v*w=-0.1026415526965872
+f=street performers, v=1, w=-0.16925446205373218, v*w=-0.16925446205373218
+================================================================================
+P: A bride wearing her bridal gown is taking pictures with her colorful wedding bouquet in front of cows .
+H: A bride is taking pictures at a barn .
+label=1, predicted=0, wrong
+f=cows ., v=1, w=0.11514315009341695, v*w=0.11514315009341695
+f=barn ., v=1, w=0.05429567996405502, v*w=0.05429567996405502
+f=. bride, v=1, w=0.03879524405653437, v*w=0.03879524405653437
+f=bride wearing, v=1, w=0, v*w=0
+f=wearing bridal, v=1, w=0, v*w=0
+f=bridal gown, v=1, w=0, v*w=0
+f=gown taking, v=1, w=0, v*w=0
+f=pictures colorful, v=1, w=0, v*w=0
+f=colorful wedding, v=1, w=0, v*w=0
+f=wedding bouquet, v=1, w=0, v*w=0
+f=bouquet front, v=1, w=0, v*w=0
+f=front cows, v=1, w=0, v*w=0
+f=bride taking, v=1, w=0, v*w=0
+f=pictures barn, v=1, w=0, v*w=0
+f=taking pictures, v=2, w=-0.2080977077358848, v*w=-0.4161954154717696
+================================================================================
+P: A man with a cowboy hat green plaid shirt , jeans , and red boots and chaps rides a bay horse next to a young boy with a cowboy hat and blue shirt , jeans and chaps rides a pony next to him .
+H: People are riding horses and ponies outside .
+label=1, predicted=1, correct
+f=outside ., v=1, w=0.9277632420961921, v*w=0.9277632420961921
+f=. People, v=1, w=0.42359099904928355, v*w=0.42359099904928355
+f=jeans ,, v=1, w=0.2811245314345266, v*w=0.2811245314345266
+f=riding horses, v=1, w=0.27111955554447104, v*w=0.27111955554447104
+f=People riding, v=1, w=0.18785303329047867, v*w=0.18785303329047867
+f=young boy, v=1, w=0.12074759537598573, v*w=0.12074759537598573
+f=next ., v=1, w=0.10663816232985476, v*w=0.10663816232985476
+f=chaps rides, v=2, w=0.04599521170089201, v*w=0.09199042340178402
+f=blue shirt, v=1, w=0.05491935910117183, v*w=0.05491935910117183
+f=cowboy hat, v=2, w=0.026280187784405787, v*w=0.052560375568811574
+f=man cowboy, v=1, w=0.0506430449342906, v*w=0.0506430449342906
+f=rides pony, v=1, w=0.05033122173498143, v*w=0.05033122173498143
+f=red boots, v=1, w=0.0400410685914341, v*w=0.0400410685914341
+f=hat green, v=1, w=0, v*w=0
+f=green plaid, v=1, w=0, v*w=0
+f=boots chaps, v=1, w=0, v*w=0
+f=rides bay, v=1, w=0, v*w=0
+f=bay horse, v=1, w=0, v*w=0
+f=horse next, v=1, w=0, v*w=0
+f=boy cowboy, v=1, w=0, v*w=0
+f=jeans chaps, v=1, w=0, v*w=0
+f=pony next, v=1, w=0, v*w=0
+f=horses ponies, v=1, w=0, v*w=0
+f=ponies outside, v=1, w=0, v*w=0
+f=, jeans, v=2, w=-0.023432674224200638, v*w=-0.046865348448401276
+f=next young, v=1, w=-0.09845386412745165, v*w=-0.09845386412745165
+f=, red, v=1, w=-0.1026415526965872, v*w=-0.1026415526965872
+f=plaid shirt, v=1, w=-0.10312498918993143, v*w=-0.10312498918993143
+f=hat blue, v=1, w=-0.164244887224922, v*w=-0.164244887224922
+f=shirt ,, v=2, w=-0.139168353813088, v*w=-0.278336707626176
+================================================================================
+P: A hiker pokes his head out of a tent high in the mountains .
+H: The hiker heard a noise .
+label=0, predicted=1, wrong
+f=pokes head, v=1, w=0.08090737829122474, v*w=0.08090737829122474
+f=noise ., v=1, w=0.05013333953614726, v*w=0.05013333953614726
+f=mountains ., v=1, w=0.0310391168690457, v*w=0.0310391168690457
+f=hiker pokes, v=1, w=0, v*w=0
+f=head tent, v=1, w=0, v*w=0
+f=tent high, v=1, w=0, v*w=0
+f=high mountains, v=1, w=0, v*w=0
+f=hiker heard, v=1, w=0, v*w=0
+f=heard noise, v=1, w=0, v*w=0
+f=. hiker, v=1, w=-0.059876982267602456, v*w=-0.059876982267602456
+================================================================================
+P: Children participating at a party while looking at the one kid in exuberance over the new toy .
+H: Children are at a party
+label=1, predicted=1, correct
+f=toy ., v=1, w=0.20720682787980033, v*w=0.20720682787980033
+f=one kid, v=1, w=0.029517737399407572, v*w=0.029517737399407572
+f=looking one, v=1, w=0.005943922314667793, v*w=0.005943922314667793
+f=Children participating, v=1, w=0, v*w=0
+f=participating party, v=1, w=0, v*w=0
+f=party looking, v=1, w=0, v*w=0
+f=kid exuberance, v=1, w=0, v*w=0
+f=exuberance new, v=1, w=0, v*w=0
+f=Children party, v=1, w=0, v*w=0
+f=new toy, v=1, w=-0.0417015593814829, v*w=-0.0417015593814829
+f=. Children, v=1, w=-0.05366934153640905, v*w=-0.05366934153640905
+================================================================================
+P: two women in lab coats looking on a image projected on the wall
+H: Scientists are interpreting experimental findings .
+label=0, predicted=1, wrong
+f=two women, v=1, w=0.2887989670508203, v*w=0.2887989670508203
+f=lab coats, v=1, w=0.0487347554471058, v*w=0.0487347554471058
+f=coats looking, v=1, w=0.03499515074737495, v*w=0.03499515074737495
+f=women lab, v=1, w=0, v*w=0
+f=looking image, v=1, w=0, v*w=0
+f=image projected, v=1, w=0, v*w=0
+f=projected wall, v=1, w=0, v*w=0
+f=wall Scientists, v=1, w=0, v*w=0
+f=Scientists interpreting, v=1, w=0, v*w=0
+f=interpreting experimental, v=1, w=0, v*w=0
+f=experimental findings, v=1, w=0, v*w=0
+f=findings ., v=1, w=0, v*w=0
+================================================================================
+P: A gathering of young African males under a thatched roof .
+H: A group of men are under a roof .
+label=1, predicted=1, correct
+f=. group, v=1, w=0.2723428172640944, v*w=0.2723428172640944
+f=roof ., v=2, w=0.0526132139158138, v*w=0.1052264278316276
+f=young African, v=1, w=0, v*w=0
+f=African males, v=1, w=0, v*w=0
+f=males thatched, v=1, w=0, v*w=0
+f=thatched roof, v=1, w=0, v*w=0
+f=men roof, v=1, w=0, v*w=0
+f=gathering young, v=1, w=-0.04158598095042292, v*w=-0.04158598095042292
+f=group men, v=1, w=-0.2568397815319122, v*w=-0.2568397815319122
+================================================================================
+P: A young boy swinging on a swing .
+H: A boy swings outside .
+label=1, predicted=1, correct
+f=outside ., v=1, w=0.9277632420961921, v*w=0.9277632420961921
+f=boy swings, v=1, w=0.12079409455630101, v*w=0.12079409455630101
+f=young boy, v=1, w=0.12074759537598573, v*w=0.12074759537598573
+f=swing ., v=1, w=0.029743503949121623, v*w=0.029743503949121623
+f=swings outside, v=1, w=0, v*w=0
+f=swinging swing, v=1, w=-0.0160735689673072, v*w=-0.0160735689673072
+f=boy swinging, v=1, w=-0.04672224630833619, v*w=-0.04672224630833619
+f=. boy, v=1, w=-0.10373494772609256, v*w=-0.10373494772609256
+================================================================================
+P: A man with a gray beard and an apron smiles .
+H: A man smiling .
+label=1, predicted=1, correct
+f=smiling ., v=1, w=0.32328736441524103, v*w=0.32328736441524103
+f=smiles ., v=1, w=0.2378285914103184, v*w=0.2378285914103184
+f=man smiling, v=1, w=0.11131982876636604, v*w=0.11131982876636604
+f=gray beard, v=1, w=0.09813958831399061, v*w=0.09813958831399061
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=man gray, v=1, w=0.01003214758963818, v*w=0.01003214758963818
+f=beard apron, v=1, w=0, v*w=0
+f=apron smiles, v=1, w=0, v*w=0
+================================================================================
+P: A lady in a black shirt is standing in a crowd with a rolled up piece of paper in her hands .
+H: The lady has a paper in her hands .
+label=1, predicted=0, wrong
+f=lady black, v=1, w=0.018526994174880844, v*w=0.018526994174880844
+f=crowd rolled, v=1, w=0, v*w=0
+f=rolled piece, v=1, w=0, v*w=0
+f=paper hands, v=2, w=0, v*w=0
+f=lady paper, v=1, w=0, v*w=0
+f=shirt standing, v=1, w=-0.007821785103677368, v*w=-0.007821785103677368
+f=hands ., v=2, w=-0.02344413483826729, v*w=-0.04688826967653458
+f=. lady, v=1, w=-0.051383393260063005, v*w=-0.051383393260063005
+f=black shirt, v=1, w=-0.07269917968764203, v*w=-0.07269917968764203
+f=piece paper, v=1, w=-0.17303623421832587, v*w=-0.17303623421832587
+f=standing crowd, v=1, w=-0.2049748073048994, v*w=-0.2049748073048994
+================================================================================
+P: A man in a denim shirt and pants is smoking a cigarette while playing a cello for money .
+H: A man in a denim shirt is smoking .
+label=1, predicted=0, wrong
+f=smoking ., v=1, w=0.05716226496926329, v*w=0.05716226496926329
+f=smoking cigarette, v=1, w=0.04994464386586968, v*w=0.04994464386586968
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=denim shirt, v=2, w=0, v*w=0
+f=pants smoking, v=1, w=0, v*w=0
+f=cigarette playing, v=1, w=0, v*w=0
+f=cello money, v=1, w=0, v*w=0
+f=playing cello, v=1, w=-0.01681635128669357, v*w=-0.01681635128669357
+f=shirt pants, v=1, w=-0.029018190704793112, v*w=-0.029018190704793112
+f=shirt smoking, v=1, w=-0.05136904996661253, v*w=-0.05136904996661253
+f=man denim, v=2, w=-0.03186192263642995, v*w=-0.0637238452728599
+f=money ., v=1, w=-0.3672619167819554, v*w=-0.3672619167819554
+================================================================================
+P: Water polo swimmers competing for a loose ball .
+H: A group of water polo swimmers swimming together in the pool .
+label=1, predicted=0, wrong
+f=. group, v=1, w=0.2723428172640944, v*w=0.2723428172640944
+f=water polo, v=1, w=0.0388765977023901, v*w=0.0388765977023901
+f=swimming together, v=1, w=0.02965435512967869, v*w=0.02965435512967869
+f=Water polo, v=1, w=0, v*w=0
+f=polo swimmers, v=2, w=0, v*w=0
+f=competing loose, v=1, w=0, v*w=0
+f=loose ball, v=1, w=0, v*w=0
+f=group water, v=1, w=0, v*w=0
+f=swimmers swimming, v=1, w=0, v*w=0
+f=together pool, v=1, w=0, v*w=0
+f=swimmers competing, v=1, w=-0.03783478724550447, v*w=-0.03783478724550447
+f=ball ., v=1, w=-0.18414212655386625, v*w=-0.18414212655386625
+f=pool ., v=1, w=-0.18893265525187283, v*w=-0.18893265525187283
+================================================================================
+P: Two little girls ride an inflatable dinghy down a purple water slide .
+H: Two girls on a water slide .
+label=1, predicted=0, wrong
+f=girls ride, v=1, w=0.09026877370513581, v*w=0.09026877370513581
+f=water slide, v=2, w=0.019694346268281447, v*w=0.039388692536562894
+f=ride inflatable, v=1, w=0, v*w=0
+f=inflatable dinghy, v=1, w=0, v*w=0
+f=dinghy purple, v=1, w=0, v*w=0
+f=purple water, v=1, w=0, v*w=0
+f=girls water, v=1, w=0, v*w=0
+f=. Two, v=1, w=-0.024113948394353026, v*w=-0.024113948394353026
+f=Two girls, v=1, w=-0.11717460816610567, v*w=-0.11717460816610567
+f=little girls, v=1, w=-0.13662769074628467, v*w=-0.13662769074628467
+f=Two little, v=1, w=-0.24051183960238776, v*w=-0.24051183960238776
+f=slide ., v=2, w=-0.37849343090393894, v*w=-0.7569868618078779
+================================================================================
+P: A young man with blond dreadlocks sits on a wall reading a newspaper as a woman and a young girl pass by .
+H: The young man is reading the newspaper sports section with a mom and daughter walks to the movie theater .
+label=0, predicted=0, correct
+f=woman young, v=1, w=0.03919825145751785, v*w=0.03919825145751785
+f=pass ., v=1, w=0.017565314780571925, v*w=0.017565314780571925
+f=theater ., v=1, w=0.0023794329751442066, v*w=0.0023794329751442066
+f=sits wall, v=1, w=0.0007938139395586184, v*w=0.0007938139395586184
+f=man blond, v=1, w=0, v*w=0
+f=blond dreadlocks, v=1, w=0, v*w=0
+f=dreadlocks sits, v=1, w=0, v*w=0
+f=newspaper woman, v=1, w=0, v*w=0
+f=girl pass, v=1, w=0, v*w=0
+f=newspaper sports, v=1, w=0, v*w=0
+f=section mom, v=1, w=0, v*w=0
+f=daughter walks, v=1, w=0, v*w=0
+f=walks movie, v=1, w=0, v*w=0
+f=movie theater, v=1, w=0, v*w=0
+f=young girl, v=1, w=-0.008295034854556835, v*w=-0.008295034854556835
+f=sports section, v=1, w=-0.03924320205254581, v*w=-0.03924320205254581
+f=wall reading, v=1, w=-0.04154470629855245, v*w=-0.04154470629855245
+f=mom daughter, v=1, w=-0.046828593410464206, v*w=-0.046828593410464206
+f=man reading, v=1, w=-0.12797497919435213, v*w=-0.12797497919435213
+f=. young, v=1, w=-0.24241533723405814, v*w=-0.24241533723405814
+f=reading newspaper, v=2, w=-0.15463842604623027, v*w=-0.30927685209246053
+f=young man, v=2, w=-0.22615537619006168, v*w=-0.45231075238012336
+================================================================================
+P: A guy on a waterskiing board is doing a stunt .
+H: The guy is a pro waterskiier .
+label=0, predicted=1, wrong
+f=. guy, v=1, w=0.29238736003825655, v*w=0.29238736003825655
+f=stunt ., v=1, w=0.03079781307834198, v*w=0.03079781307834198
+f=guy waterskiing, v=1, w=0, v*w=0
+f=waterskiing board, v=1, w=0, v*w=0
+f=board stunt, v=1, w=0, v*w=0
+f=guy pro, v=1, w=0, v*w=0
+f=pro waterskiier, v=1, w=0, v*w=0
+f=waterskiier ., v=1, w=0, v*w=0
+================================================================================
+P: An outside wedding ceremony for an asian couple under an umbrella , shielded from the blaring sun .
+H: There are asian people outside .
+label=1, predicted=1, correct
+f=outside ., v=1, w=0.9277632420961921, v*w=0.9277632420961921
+f=people outside, v=1, w=0.3944113401898524, v*w=0.3944113401898524
+f=asian couple, v=1, w=0.07928201546958555, v*w=0.07928201546958555
+f=outside wedding, v=1, w=0, v*w=0
+f=wedding ceremony, v=1, w=0, v*w=0
+f=ceremony asian, v=1, w=0, v*w=0
+f=couple umbrella, v=1, w=0, v*w=0
+f=, shielded, v=1, w=0, v*w=0
+f=shielded blaring, v=1, w=0, v*w=0
+f=blaring sun, v=1, w=0, v*w=0
+f=asian people, v=1, w=-0.04238737840132174, v*w=-0.04238737840132174
+f=umbrella ,, v=1, w=-0.04247713620705391, v*w=-0.04247713620705391
+f=. asian, v=1, w=-0.093463156586197, v*w=-0.093463156586197
+f=sun ., v=1, w=-0.13040700202678715, v*w=-0.13040700202678715
+================================================================================
+P: Javelin competition
+H: The woman one the javelin competition .
+label=0, predicted=0, correct
+f=Javelin competition, v=1, w=0, v*w=0
+f=competition woman, v=1, w=0, v*w=0
+f=woman one, v=1, w=0, v*w=0
+f=one javelin, v=1, w=0, v*w=0
+f=javelin competition, v=1, w=0, v*w=0
+f=competition ., v=1, w=-0.3362065432337504, v*w=-0.3362065432337504
+================================================================================
+P: A small boy purchases vegetables from an older man .
+H: A boy buys tomatoes and broccoli from a man .
+label=0, predicted=0, correct
+f=man ., v=2, w=0.02587999114847596, v*w=0.05175998229695192
+f=boy purchases, v=1, w=0, v*w=0
+f=purchases vegetables, v=1, w=0, v*w=0
+f=vegetables older, v=1, w=0, v*w=0
+f=boy buys, v=1, w=0, v*w=0
+f=buys tomatoes, v=1, w=0, v*w=0
+f=tomatoes broccoli, v=1, w=0, v*w=0
+f=broccoli man, v=1, w=0, v*w=0
+f=. boy, v=1, w=-0.10373494772609256, v*w=-0.10373494772609256
+f=small boy, v=1, w=-0.12228914507162388, v*w=-0.12228914507162388
+f=older man, v=1, w=-0.297170995802237, v*w=-0.297170995802237
+================================================================================
+P: Two men practicing a form of martial arts in a wooden-floored studio .
+H: Two men practicing martial arts
+label=1, predicted=0, wrong
+f=martial arts, v=2, w=0.0923452444970803, v*w=0.1846904889941606
+f=form martial, v=1, w=0.06265971716319345, v*w=0.06265971716319345
+f=practicing form, v=1, w=0, v*w=0
+f=arts wooden-floored, v=1, w=0, v*w=0
+f=wooden-floored studio, v=1, w=0, v*w=0
+f=Two men, v=2, w=-0.007619622136674755, v*w=-0.01523924427334951
+f=. Two, v=1, w=-0.024113948394353026, v*w=-0.024113948394353026
+f=men practicing, v=2, w=-0.027177623036076303, v*w=-0.054355246072152606
+f=practicing martial, v=1, w=-0.1087212139856059, v*w=-0.1087212139856059
+f=studio ., v=1, w=-0.14907377086911178, v*w=-0.14907377086911178
+================================================================================
+P: There are two men standing beside a market of fruits and vegetables .
+H: Two men are selling their produce .
+label=0, predicted=0, correct
+f=standing beside, v=1, w=0.15059455498251453, v*w=0.15059455498251453
+f=fruits vegetables, v=1, w=0.08427737956982057, v*w=0.08427737956982057
+f=produce ., v=1, w=0.024145918156742774, v*w=0.024145918156742774
+f=beside market, v=1, w=0, v*w=0
+f=market fruits, v=1, w=0, v*w=0
+f=Two men, v=1, w=-0.007619622136674755, v*w=-0.007619622136674755
+f=. Two, v=1, w=-0.024113948394353026, v*w=-0.024113948394353026
+f=selling produce, v=1, w=-0.0475616573166109, v*w=-0.0475616573166109
+f=men selling, v=1, w=-0.06316460689322938, v*w=-0.06316460689322938
+f=vegetables ., v=1, w=-0.08706649247474028, v*w=-0.08706649247474028
+f=men standing, v=1, w=-0.1744068097144451, v*w=-0.1744068097144451
+f=two men, v=1, w=-0.3200675378590214, v*w=-0.3200675378590214
+================================================================================
+P: A lady in a blue shirt and hat dancing with a man in sunglasses .
+H: The dancing couple is married
+label=0, predicted=1, wrong
+f=shirt hat, v=1, w=0.18995666446394796, v*w=0.18995666446394796
+f=sunglasses ., v=1, w=0.05763628034244968, v*w=0.05763628034244968
+f=blue shirt, v=1, w=0.05491935910117183, v*w=0.05491935910117183
+f=dancing man, v=1, w=0.03664061308476978, v*w=0.03664061308476978
+f=hat dancing, v=1, w=0, v*w=0
+f=dancing couple, v=1, w=0, v*w=0
+f=couple married, v=1, w=0, v*w=0
+f=. dancing, v=1, w=-0.04645481666279104, v*w=-0.04645481666279104
+f=man sunglasses, v=1, w=-0.08407198410132874, v*w=-0.08407198410132874
+f=lady blue, v=1, w=-0.16034361966241523, v*w=-0.16034361966241523
+================================================================================
+P: A man in blue with a black hat with a dog leaping at him in a park-like setting .
+H: A man in a black hat spending time with his dog beneth tree in a park .
+label=0, predicted=1, wrong
+f=man blue, v=1, w=0.4377958868096116, v*w=0.4377958868096116
+f=man black, v=1, w=0.11364843399938854, v*w=0.11364843399938854
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=black hat, v=2, w=0.008335231814457224, v*w=0.016670463628914448
+f=blue black, v=1, w=0.012066259120403704, v*w=0.012066259120403704
+f=hat dog, v=1, w=0, v*w=0
+f=leaping park-like, v=1, w=0, v*w=0
+f=park-like setting, v=1, w=0, v*w=0
+f=hat spending, v=1, w=0, v*w=0
+f=time dog, v=1, w=0, v*w=0
+f=dog beneth, v=1, w=0, v*w=0
+f=beneth tree, v=1, w=0, v*w=0
+f=tree park, v=1, w=0, v*w=0
+f=setting ., v=1, w=-0.0022543878268813933, v*w=-0.0022543878268813933
+f=dog leaping, v=1, w=-0.010411200136102798, v*w=-0.010411200136102798
+f=spending time, v=1, w=-0.03000533323232409, v*w=-0.03000533323232409
+f=park ., v=1, w=-0.46023228951221956, v*w=-0.46023228951221956
+================================================================================
+P: Two children , standing among grass , are putting their arms out and are smiling .
+H: Two kids smiling .
+label=1, predicted=1, correct
+f=smiling ., v=2, w=0.32328736441524103, v*w=0.6465747288304821
+f=Two kids, v=1, w=0.1654318793443495, v*w=0.1654318793443495
+f=children ,, v=1, w=0.11980441794997512, v*w=0.11980441794997512
+f=standing among, v=1, w=0.009949835365850807, v*w=0.009949835365850807
+f=among grass, v=1, w=0, v*w=0
+f=, putting, v=1, w=0, v*w=0
+f=putting arms, v=1, w=0, v*w=0
+f=arms smiling, v=1, w=0, v*w=0
+f=kids smiling, v=1, w=0, v*w=0
+f=, standing, v=1, w=-0.0013761055397131135, v*w=-0.0013761055397131135
+f=. Two, v=1, w=-0.024113948394353026, v*w=-0.024113948394353026
+f=grass ,, v=1, w=-0.07027175391519497, v*w=-0.07027175391519497
+f=Two children, v=1, w=-0.11364813901277597, v*w=-0.11364813901277597
+================================================================================
+P: A woman with tattoos and a black t-shirt smiles and talks to a man with a partially shaved head wearing shirt with the words ' hippie killer ' in white letters on it .
+H: A female and a male are talking to each other .
+label=1, predicted=1, correct
+f=talking ., v=1, w=0.3995061252396515, v*w=0.3995061252396515
+f=black t-shirt, v=1, w=0.14207730251914188, v*w=0.14207730251914188
+f=man partially, v=1, w=0.04297117826873487, v*w=0.04297117826873487
+f=words ', v=1, w=0.042139193983650076, v*w=0.042139193983650076
+f=woman tattoos, v=1, w=0, v*w=0
+f=tattoos black, v=1, w=0, v*w=0
+f=t-shirt smiles, v=1, w=0, v*w=0
+f=smiles talks, v=1, w=0, v*w=0
+f=partially shaved, v=1, w=0, v*w=0
+f=head wearing, v=1, w=0, v*w=0
+f=shirt words, v=1, w=0, v*w=0
+f=' hippie, v=1, w=0, v*w=0
+f=hippie killer, v=1, w=0, v*w=0
+f=killer ', v=1, w=0, v*w=0
+f=' white, v=1, w=0, v*w=0
+f=white letters, v=1, w=0, v*w=0
+f=letters ., v=1, w=0, v*w=0
+f=male talking, v=1, w=0, v*w=0
+f=wearing shirt, v=1, w=-0.012884257050711273, v*w=-0.012884257050711273
+f=shaved head, v=1, w=-0.013732011968626175, v*w=-0.013732011968626175
+f=. female, v=1, w=-0.09937437888750318, v*w=-0.09937437888750318
+f=talks man, v=1, w=-0.11176398807753622, v*w=-0.11176398807753622
+f=female male, v=1, w=-0.11185735601220248, v*w=-0.11185735601220248
+================================================================================
+P: A guy tries to climb a stone cliff while his friend helps him .
+H: Two people are climbing a cliff .
+label=1, predicted=1, correct
+f=people climbing, v=1, w=0.1627053790103231, v*w=0.1627053790103231
+f=Two people, v=1, w=0.14321402448888212, v*w=0.14321402448888212
+f=helps ., v=1, w=0.051315489344251695, v*w=0.051315489344251695
+f=guy tries, v=1, w=0, v*w=0
+f=tries climb, v=1, w=0, v*w=0
+f=climb stone, v=1, w=0, v*w=0
+f=stone cliff, v=1, w=0, v*w=0
+f=cliff friend, v=1, w=0, v*w=0
+f=friend helps, v=1, w=0, v*w=0
+f=. Two, v=1, w=-0.024113948394353026, v*w=-0.024113948394353026
+f=climbing cliff, v=1, w=-0.11105823710252827, v*w=-0.11105823710252827
+f=cliff ., v=1, w=-0.1715303025620938, v*w=-0.1715303025620938
+================================================================================
+P: Police officer and his motorcycle in a crowd of people at a protest .
+H: A police officer is arresting someone in front of a crowd .
+label=0, predicted=0, correct
+f=crowd people, v=1, w=0.13467600411593825, v*w=0.13467600411593825
+f=Police officer, v=1, w=0.03355240268551419, v*w=0.03355240268551419
+f=officer arresting, v=1, w=0, v*w=0
+f=arresting someone, v=1, w=0, v*w=0
+f=someone front, v=1, w=0, v*w=0
+f=police officer, v=1, w=-0.017419873649286863, v*w=-0.017419873649286863
+f=motorcycle crowd, v=1, w=-0.03433631401939493, v*w=-0.03433631401939493
+f=officer motorcycle, v=1, w=-0.04643381202935819, v*w=-0.04643381202935819
+f=people protest, v=1, w=-0.04949778791568547, v*w=-0.04949778791568547
+f=. police, v=1, w=-0.07008488428304346, v*w=-0.07008488428304346
+f=front crowd, v=1, w=-0.08854209173954715, v*w=-0.08854209173954715
+f=protest ., v=1, w=-0.18772240681644847, v*w=-0.18772240681644847
+f=crowd ., v=1, w=-0.26792294528093974, v*w=-0.26792294528093974
+================================================================================
+P: A little girl wearing a pink , yellow and white bathing suit , gets wet from a splash of water .
+H: A girl gets wet from a splash of water by her brother .
+label=0, predicted=1, wrong
+f=, yellow, v=1, w=0.24756068379211188, v*w=0.24756068379211188
+f=water ., v=1, w=0.2105510679389818, v*w=0.2105510679389818
+f=yellow white, v=1, w=0.17590122465708163, v*w=0.17590122465708163
+f=pink ,, v=1, w=0.11237396618027683, v*w=0.11237396618027683
+f=little girl, v=1, w=0.10938370868898037, v*w=0.10938370868898037
+f=. girl, v=1, w=0.05310537642392153, v*w=0.05310537642392153
+f=bathing suit, v=1, w=0.04531345459581749, v*w=0.04531345459581749
+f=girl gets, v=1, w=0.04360295658312104, v*w=0.04360295658312104
+f=girl wearing, v=1, w=0.04027096167640118, v*w=0.04027096167640118
+f=white bathing, v=1, w=0.03813139365949518, v*w=0.03813139365949518
+f=suit ,, v=1, w=0.003561289916855394, v*w=0.003561289916855394
+f=, gets, v=1, w=0, v*w=0
+f=gets wet, v=2, w=0, v*w=0
+f=wet splash, v=2, w=0, v*w=0
+f=water brother, v=1, w=0, v*w=0
+f=brother ., v=1, w=-0.08274480510679927, v*w=-0.08274480510679927
+f=splash water, v=2, w=-0.057904280460006965, v*w=-0.11580856092001393
+f=wearing pink, v=1, w=-0.1872963519134712, v*w=-0.1872963519134712
+================================================================================
+P: A bridal party is posing for a picture outdoors .
+H: The party is taking pictures before a wedding .
+label=0, predicted=1, wrong
+f=outdoors ., v=1, w=1.0605356018295922, v*w=1.0605356018295922
+f=picture outdoors, v=1, w=0.015013317624387157, v*w=0.015013317624387157
+f=bridal party, v=1, w=0.0041760255922137605, v*w=0.0041760255922137605
+f=party posing, v=1, w=0, v*w=0
+f=. party, v=1, w=0, v*w=0
+f=party taking, v=1, w=0, v*w=0
+f=pictures wedding, v=1, w=0, v*w=0
+f=wedding ., v=1, w=-0.009792217150642539, v*w=-0.009792217150642539
+f=taking pictures, v=1, w=-0.2080977077358848, v*w=-0.2080977077358848
+f=posing picture, v=1, w=-0.30476494444948043, v*w=-0.30476494444948043
+================================================================================
+P: A group of people walk up a ramp on a cloudy day .
+H: The people are walking .
+label=1, predicted=1, correct
+f=walking ., v=1, w=0.5015678246856647, v*w=0.5015678246856647
+f=people walking, v=1, w=0.11557889361390994, v*w=0.11557889361390994
+f=cloudy day, v=1, w=0.07356606901014484, v*w=0.07356606901014484
+f=people walk, v=1, w=0.06225042062175208, v*w=0.06225042062175208
+f=walk ramp, v=1, w=0, v*w=0
+f=ramp cloudy, v=1, w=0, v*w=0
+f=. people, v=1, w=-0.029682947054380297, v*w=-0.029682947054380297
+f=group people, v=1, w=-0.24068914004354322, v*w=-0.24068914004354322
+f=day ., v=1, w=-0.4261914474448209, v*w=-0.4261914474448209
+================================================================================
+P: A woman pulls a small child in a sled through the snow .
+H: A woman pulls a child .
+label=1, predicted=1, correct
+f=snow ., v=1, w=0.356959223594771, v*w=0.356959223594771
+f=small child, v=1, w=0.19201765764078968, v*w=0.19201765764078968
+f=woman pulls, v=2, w=0.0392323924717249, v*w=0.0784647849434498
+f=child ., v=1, w=0.029029208010669, v*w=0.029029208010669
+f=. woman, v=1, w=0.01661094559395423, v*w=0.01661094559395423
+f=pulls small, v=1, w=0, v*w=0
+f=pulls child, v=1, w=0, v*w=0
+f=child sled, v=1, w=-0.03713682785553261, v*w=-0.03713682785553261
+f=sled snow, v=1, w=-0.04107368287075755, v*w=-0.04107368287075755
+================================================================================
+P: There is not an image here .
+H: There is only a single color displayed instead of an image .
+label=0, predicted=0, correct
+f=single color, v=1, w=0, v*w=0
+f=color displayed, v=1, w=0, v*w=0
+f=displayed instead, v=1, w=0, v*w=0
+f=instead image, v=1, w=0, v*w=0
+f=. single, v=1, w=-0.04605064330723325, v*w=-0.04605064330723325
+f=image ., v=2, w=-0.04655403925135556, v*w=-0.09310807850271112
+================================================================================
+P: A man and a woman are sitting at a table outside , next to a small flower garden .
+H: The man and woman are on a date .
+label=0, predicted=0, correct
+f=woman sitting, v=1, w=0.27734094217832833, v*w=0.27734094217832833
+f=, next, v=1, w=0.06683089828143142, v*w=0.06683089828143142
+f=table outside, v=1, w=0.05648879657112063, v*w=0.05648879657112063
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=flower garden, v=1, w=0, v*w=0
+f=small flower, v=1, w=-0.044021087517403745, v*w=-0.044021087517403745
+f=outside ,, v=1, w=-0.04753137853655095, v*w=-0.04753137853655095
+f=next small, v=1, w=-0.05149538074540594, v*w=-0.05149538074540594
+f=woman date, v=1, w=-0.08110850722360184, v*w=-0.08110850722360184
+f=garden ., v=1, w=-0.11255277046561575, v*w=-0.11255277046561575
+f=man woman, v=2, w=-0.06267720424196438, v*w=-0.12535440848392876
+f=sitting table, v=1, w=-0.1289696332540559, v*w=-0.1289696332540559
+f=date ., v=1, w=-0.23976224631421117, v*w=-0.23976224631421117
+================================================================================
+P: Jet flying low over a field with a woman in the field .
+H: A woman watches a jet fly over her .
+label=0, predicted=0, correct
+f=. woman, v=1, w=0.01661094559395423, v*w=0.01661094559395423
+f=Jet flying, v=1, w=0, v*w=0
+f=flying low, v=1, w=0, v*w=0
+f=low field, v=1, w=0, v*w=0
+f=field woman, v=1, w=0, v*w=0
+f=woman field, v=1, w=0, v*w=0
+f=watches jet, v=1, w=0, v*w=0
+f=jet fly, v=1, w=0, v*w=0
+f=woman watches, v=1, w=-0.0012565049978047267, v*w=-0.0012565049978047267
+f=field ., v=1, w=-0.09581460555491084, v*w=-0.09581460555491084
+f=fly ., v=1, w=-0.13132053535818705, v*w=-0.13132053535818705
+================================================================================
+P: A toddler dressed only in a pamper is sitting on the floor playing with 4 `` car '' pieces to a train set .
+H: A child plays with a train set .
+label=1, predicted=0, wrong
+f=. child, v=1, w=0.29272443061116804, v*w=0.29272443061116804
+f=toddler dressed, v=1, w=0, v*w=0
+f=dressed pamper, v=1, w=0, v*w=0
+f=pamper sitting, v=1, w=0, v*w=0
+f=floor playing, v=1, w=0, v*w=0
+f=playing 4, v=1, w=0, v*w=0
+f=4 ``, v=1, w=0, v*w=0
+f=`` car, v=1, w=0, v*w=0
+f=car '', v=1, w=0, v*w=0
+f='' pieces, v=1, w=0, v*w=0
+f=pieces train, v=1, w=0, v*w=0
+f=plays train, v=1, w=0, v*w=0
+f=child plays, v=1, w=-0.02885165132342335, v*w=-0.02885165132342335
+f=train set, v=2, w=-0.042949733122599774, v*w=-0.08589946624519955
+f=sitting floor, v=1, w=-0.34701325072254896, v*w=-0.34701325072254896
+f=set ., v=2, w=-0.2641465790225482, v*w=-0.5282931580450964
+================================================================================
+P: Three children dressed in winter clothes are walking through the woods while pushing cargo along .
+H: Three children are dressed in winter clothes .
+label=1, predicted=1, correct
+f=Three children, v=2, w=0.20744872039582224, v*w=0.4148974407916445
+f=clothes ., v=1, w=0.34380015129635205, v*w=0.34380015129635205
+f=dressed winter, v=2, w=0.14502035020367662, v*w=0.29004070040735325
+f=winter clothes, v=2, w=0.09921527431055188, v*w=0.19843054862110376
+f=along ., v=1, w=0.050696644009932415, v*w=0.050696644009932415
+f=clothes walking, v=1, w=0, v*w=0
+f=woods pushing, v=1, w=0, v*w=0
+f=pushing cargo, v=1, w=0, v*w=0
+f=cargo along, v=1, w=0, v*w=0
+f=walking woods, v=1, w=-0.06140666262965819, v*w=-0.06140666262965819
+f=children dressed, v=2, w=-0.0434831894655089, v*w=-0.0869663789310178
+f=. Three, v=1, w=-0.11818939381465876, v*w=-0.11818939381465876
+================================================================================
+P: People are walking along the street .
+H: Humans beings are ambling down a road .
+label=1, predicted=1, correct
+f=. Humans, v=1, w=0.46976098752142587, v*w=0.46976098752142587
+f=walking along, v=1, w=0.31257726199496005, v*w=0.31257726199496005
+f=road ., v=1, w=0.07470101493761827, v*w=0.07470101493761827
+f=Humans beings, v=1, w=0, v*w=0
+f=beings ambling, v=1, w=0, v*w=0
+f=ambling road, v=1, w=0, v*w=0
+f=People walking, v=1, w=-0.051498045454664194, v*w=-0.051498045454664194
+f=along street, v=1, w=-0.07579427581252562, v*w=-0.07579427581252562
+f=street ., v=1, w=-0.07833073004082985, v*w=-0.07833073004082985
+================================================================================
+P: A male child with blond-hair , green eyes , and a sticky looking mouth wearing a multicolored t-shirt has his hand wrapped around a popsicle stick and is chewing and has it inserted into his mouth where you can see 4 bright white teeth on the bottom row .
+H: A person in a shirt
+label=1, predicted=1, correct
+f=. person, v=1, w=0.8273373049191419, v*w=0.8273373049191419
+f=person shirt, v=1, w=0.11034409752727017, v*w=0.11034409752727017
+f=wrapped around, v=1, w=0.07050236350410449, v*w=0.07050236350410449
+f=looking mouth, v=1, w=0.03519612890952683, v*w=0.03519612890952683
+f=, green, v=1, w=0.02643639494928105, v*w=0.02643639494928105
+f=green eyes, v=1, w=0, v*w=0
+f=, sticky, v=1, w=0, v*w=0
+f=sticky looking, v=1, w=0, v*w=0
+f=mouth wearing, v=1, w=0, v*w=0
+f=wearing multicolored, v=1, w=0, v*w=0
+f=multicolored t-shirt, v=1, w=0, v*w=0
+f=t-shirt hand, v=1, w=0, v*w=0
+f=around popsicle, v=1, w=0, v*w=0
+f=popsicle stick, v=1, w=0, v*w=0
+f=stick chewing, v=1, w=0, v*w=0
+f=chewing inserted, v=1, w=0, v*w=0
+f=inserted mouth, v=1, w=0, v*w=0
+f=mouth see, v=1, w=0, v*w=0
+f=see 4, v=1, w=0, v*w=0
+f=4 bright, v=1, w=0, v*w=0
+f=bright white, v=1, w=0, v*w=0
+f=white teeth, v=1, w=0, v*w=0
+f=teeth bottom, v=1, w=0, v*w=0
+f=bottom row, v=1, w=0, v*w=0
+f=row ., v=1, w=0, v*w=0
+f=child blond-hair, v=1, w=-0.030557021462301638, v*w=-0.030557021462301638
+f=eyes ,, v=1, w=-0.03896589811617727, v*w=-0.03896589811617727
+f=male child, v=1, w=-0.062481591531934264, v*w=-0.062481591531934264
+f=hand wrapped, v=1, w=-0.06272138189718565, v*w=-0.06272138189718565
+f=blond-hair ,, v=1, w=-0.08977507390938742, v*w=-0.08977507390938742
+================================================================================
+P: Two men holding their mouths open .
+H: Two men with mouths agape .
+label=1, predicted=1, correct
+f=open ., v=1, w=0.1171822905855337, v*w=0.1171822905855337
+f=men holding, v=1, w=0.0747630550960198, v*w=0.0747630550960198
+f=holding mouths, v=1, w=0, v*w=0
+f=mouths open, v=1, w=0, v*w=0
+f=men mouths, v=1, w=0, v*w=0
+f=mouths agape, v=1, w=0, v*w=0
+f=agape ., v=1, w=0, v*w=0
+f=Two men, v=2, w=-0.007619622136674755, v*w=-0.01523924427334951
+f=. Two, v=1, w=-0.024113948394353026, v*w=-0.024113948394353026
+================================================================================
+P: A scientist with a checkered shirt on is looking into a microscope to learn more about the world .
+H: A scientist is close to a scientific breakthrough .
+label=0, predicted=0, correct
+f=shirt looking, v=1, w=0.13282374213059486, v*w=0.13282374213059486
+f=world ., v=1, w=0.04844699557284455, v*w=0.04844699557284455
+f=looking microscope, v=1, w=0.02271796063600335, v*w=0.02271796063600335
+f=scientist checkered, v=1, w=0, v*w=0
+f=microscope learn, v=1, w=0, v*w=0
+f=learn world, v=1, w=0, v*w=0
+f=scientist close, v=1, w=0, v*w=0
+f=close scientific, v=1, w=0, v*w=0
+f=scientific breakthrough, v=1, w=0, v*w=0
+f=breakthrough ., v=1, w=0, v*w=0
+f=checkered shirt, v=1, w=-0.16737265829644762, v*w=-0.16737265829644762
+f=. scientist, v=1, w=-0.1677212660177788, v*w=-0.1677212660177788
+================================================================================
+P: A woman in a gray shirt working on papers at her desk .
+H: Lady working in her desk tensely to completed the task
+label=0, predicted=0, correct
+f=desk ., v=1, w=0.1111816873821966, v*w=0.1111816873821966
+f=working desk, v=1, w=0.04094434906550111, v*w=0.04094434906550111
+f=woman gray, v=1, w=0.03840269304310431, v*w=0.03840269304310431
+f=. Lady, v=1, w=0.037048140116952316, v*w=0.037048140116952316
+f=working papers, v=1, w=0, v*w=0
+f=papers desk, v=1, w=0, v*w=0
+f=Lady working, v=1, w=0, v*w=0
+f=desk tensely, v=1, w=0, v*w=0
+f=tensely completed, v=1, w=0, v*w=0
+f=completed task, v=1, w=0, v*w=0
+f=shirt working, v=1, w=-0.06538842500069525, v*w=-0.06538842500069525
+f=gray shirt, v=1, w=-0.20678366335850681, v*w=-0.20678366335850681
+================================================================================
+P: A man in an apron sits at a table in front of a restaurant , while another man crosses the street with a purple gift bag and rolling luggage .
+H: One person sits at a restaurant table while another pulls luggage across the street while holding a gift bag .
+label=1, predicted=1, correct
+f=sits table, v=1, w=0.2666576970388494, v*w=0.2666576970388494
+f=across street, v=1, w=0.18711960856269994, v*w=0.18711960856269994
+f=crosses street, v=1, w=0.17702637756013612, v*w=0.17702637756013612
+f=luggage ., v=1, w=0.17429400621716004, v*w=0.17429400621716004
+f=One person, v=1, w=0.15406017875801858, v*w=0.15406017875801858
+f=. One, v=1, w=0.12174745347139082, v*w=0.12174745347139082
+f=person sits, v=1, w=0.05486944683716247, v*w=0.05486944683716247
+f=pulls luggage, v=1, w=0.04589366644592646, v*w=0.04589366644592646
+f=sits restaurant, v=1, w=0.04153394779941104, v*w=0.04153394779941104
+f=street holding, v=1, w=0.0005248076740747799, v*w=0.0005248076740747799
+f=apron sits, v=1, w=0, v*w=0
+f=man crosses, v=1, w=0, v*w=0
+f=street purple, v=1, w=0, v*w=0
+f=purple gift, v=1, w=0, v*w=0
+f=gift bag, v=2, w=0, v*w=0
+f=bag rolling, v=1, w=0, v*w=0
+f=rolling luggage, v=1, w=0, v*w=0
+f=table another, v=1, w=0, v*w=0
+f=another pulls, v=1, w=0, v*w=0
+f=luggage across, v=1, w=0, v*w=0
+f=holding gift, v=1, w=0, v*w=0
+f=table front, v=1, w=-0.011721496375786735, v*w=-0.011721496375786735
+f=man apron, v=1, w=-0.016490129012418586, v*w=-0.016490129012418586
+f=restaurant ,, v=1, w=-0.03638972489633566, v*w=-0.03638972489633566
+f=restaurant table, v=1, w=-0.03958643579137727, v*w=-0.03958643579137727
+f=, another, v=1, w=-0.04039617629709587, v*w=-0.04039617629709587
+f=bag ., v=1, w=-0.05551785146927816, v*w=-0.05551785146927816
+f=front restaurant, v=1, w=-0.06487705465183839, v*w=-0.06487705465183839
+f=another man, v=1, w=-0.3933889704751776, v*w=-0.3933889704751776
+================================================================================
+P: A policeman is directing a crowd of people walking .
+H: A policeman is keeping people away from a crime scene .
+label=0, predicted=1, wrong
+f=walking ., v=1, w=0.5015678246856647, v*w=0.5015678246856647
+f=crowd people, v=1, w=0.13467600411593825, v*w=0.13467600411593825
+f=people walking, v=1, w=0.11557889361390994, v*w=0.11557889361390994
+f=keeping people, v=1, w=0.045472728528007385, v*w=0.045472728528007385
+f=policeman directing, v=1, w=0, v*w=0
+f=directing crowd, v=1, w=0, v*w=0
+f=policeman keeping, v=1, w=0, v*w=0
+f=people away, v=1, w=0, v*w=0
+f=away crime, v=1, w=0, v*w=0
+f=. policeman, v=1, w=-0.04024145073120553, v*w=-0.04024145073120553
+f=crime scene, v=1, w=-0.10730341145432308, v*w=-0.10730341145432308
+f=scene ., v=1, w=-0.13443970014544962, v*w=-0.13443970014544962
+================================================================================
+P: A woman in a dress talking on the phone while holding a dog leash .
+H: A woman is talking to a friend on the phone .
+label=0, predicted=0, correct
+f=holding dog, v=1, w=0.04437864423789366, v*w=0.04437864423789366
+f=dog leash, v=1, w=0.03162843744650464, v*w=0.03162843744650464
+f=woman dress, v=1, w=0.019150951989705275, v*w=0.019150951989705275
+f=. woman, v=1, w=0.01661094559395423, v*w=0.01661094559395423
+f=dress talking, v=1, w=0, v*w=0
+f=phone holding, v=1, w=0, v*w=0
+f=talking friend, v=1, w=0, v*w=0
+f=friend phone, v=1, w=0, v*w=0
+f=talking phone, v=1, w=-0.027500271997712933, v*w=-0.027500271997712933
+f=leash ., v=1, w=-0.03716931069531021, v*w=-0.03716931069531021
+f=woman talking, v=1, w=-0.09355194186819482, v*w=-0.09355194186819482
+f=phone ., v=1, w=-0.21013885138779342, v*w=-0.21013885138779342
+================================================================================
+P: A child holds sparklers in the dark .
+H: A child holds fireworks in the dark .
+label=1, predicted=1, correct
+f=dark ., v=2, w=0.22950474538334367, v*w=0.45900949076668734
+f=. child, v=1, w=0.29272443061116804, v*w=0.29272443061116804
+f=child holds, v=2, w=0.0734371535689329, v*w=0.1468743071378658
+f=holds sparklers, v=1, w=0, v*w=0
+f=sparklers dark, v=1, w=0, v*w=0
+f=holds fireworks, v=1, w=0, v*w=0
+f=fireworks dark, v=1, w=0, v*w=0
+================================================================================
+P: A man with blond-hair and tattoos strolls behind bleachers on the cellphone .
+H: A man talks on his cell phone .
+label=1, predicted=0, wrong
+f=cellphone ., v=1, w=0.06162872909260492, v*w=0.06162872909260492
+f=. man, v=1, w=0.04689143355304268, v*w=0.04689143355304268
+f=man blond-hair, v=1, w=0, v*w=0
+f=blond-hair tattoos, v=1, w=0, v*w=0
+f=tattoos strolls, v=1, w=0, v*w=0
+f=strolls behind, v=1, w=0, v*w=0
+f=behind bleachers, v=1, w=0, v*w=0
+f=bleachers cellphone, v=1, w=0, v*w=0
+f=talks cell, v=1, w=0, v*w=0
+f=man talks, v=1, w=-0.06534617329194703, v*w=-0.06534617329194703
+f=cell phone, v=1, w=-0.15832958318476986, v*w=-0.15832958318476986
+f=phone ., v=1, w=-0.21013885138779342, v*w=-0.21013885138779342
