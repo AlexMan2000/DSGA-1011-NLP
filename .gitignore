@@ -10,7 +10,7 @@
 Makefile
 fall2023/*
 spring2023/*
-
+*.pt
 
 build/
 # General

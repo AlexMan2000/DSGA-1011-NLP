@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c62c25b-6c5a-462c-bf49-ac5d5b61d534" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/Study_Notes_Backup/DS-GA-1011-NLP/course-material/fall2024/assignment/hw2/code",
+    "last_opened_file_path": "F:/Study_Notes_Backup/Computer_Science/Stanford_CS224N/codes/sp24/a3/a3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726977241961</updated>
       <workItem from="1726977243176" duration="1233000" />
-      <workItem from="1727022173848" duration="1613000" />
+      <workItem from="1727022173848" duration="4701000" />
     </task>
     <servers />
   </component>
