@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c62c25b-6c5a-462c-bf49-ac5d5b61d534" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../hw2_newest/hw2/code/.idea/code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../hw2_newest/hw2/code/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2_newest/hw2/code/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../hw2_newest/hw2/code/layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2_newest/hw2/code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../hw2_newest/hw2/code/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2_newest/hw2/code/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../hw2_newest/hw2/code/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../hw2_newest/hw2/code/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../hw2_newest/hw2/code/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +45,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/Study_Notes_Backup/Computer_Science/Stanford_CS224N/codes/sp24/a4_spr24_student_code/student",
+    "last_opened_file_path": "F:/Study_Notes_Backup/DS-GA-1011-NLP/course-material/fall2024/assignment/hw2_newest/hw2/code",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,6 +69,7 @@
       <workItem from="1727022173848" duration="4701000" />
       <workItem from="1727044824200" duration="3880000" />
       <workItem from="1727103413572" duration="3416000" />
+      <workItem from="1727882095080" duration="17137000" />
     </task>
     <servers />
   </component>

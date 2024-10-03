@@ -435,9 +435,14 @@ def eval_model(
 
         rb = Batch(b[0], b[1], pad_idx)
 
+        # Src Sentence
+        # ['<s>', 'Eine', 'Gruppe', 'von', 'Männern', 'lädt', 'Baumwolle', 'auf', 'einen', 'Lastwagen', '</s>']
         src_tokens = [
-            vocab_src.get_itos()[x] for x in rb.src[0] if x != pad_idx
+            vocab_src.get_itos()[x] for x in rb.src[0] if x != pad_idx  # without padding
         ]
+
+        # Target Sentence
+        # ["<s>", "A", "group", "of", "men", "are", "loading", "cotton", "onto", "a", "truck", "</s>"]
         tgt_tokens = [
             vocab_tgt.get_itos()[x] for x in rb.tgt[0] if x != pad_idx
         ]
@@ -453,16 +458,29 @@ def eval_model(
             )
         
         if beam_search:
+
             model_out = beam_search_decode(model, rb.src, rb.src_mask, 72, 0, beam_size, vocab_tgt.get_stoi()["</s>"])[0]
         else:
+            """
+            Greedy Search
+            Output is a list of token idx
+            tensor([   0,    6,   39,   13,   36,   17,  414, 2117,   71,    4,  284,    5,
+               1,    5,    1,    5,    1,    1,    1,    1,    5,    1,    1,    1,
+               5,    1,    1,    1,    1,    1,    1,    1,    1,    5,    1,    1,
+               1,    1,    1,    1,    1,    5,    1,    1,    1,    1,    1,    5,
+               1,    1,    1,    1,    1,    1,    1,    1,    5,    1,    5,    1,
+               5,    1,    5,    1,    1,    1,    1,    1,    1,    1,    1,    1],
+            """
             model_out = greedy_decode(model, rb.src, rb.src_mask, 72, 0)[0]
-        
+
+        # '<s> A group of men are putting cotton into a truck . </s>'
         model_txt = (
             " ".join(
                 [vocab_tgt.get_itos()[x] for x in model_out if x != pad_idx]
             ).split(eos_string, 1)[0]
             + eos_string
         )
+
         if verbose:
             print("Model Output               : " + model_txt.replace("\n", ""))
             
@@ -472,12 +490,26 @@ def eval_model(
         out_file.write("\n")
         
         results[idx] = (rb, src_tokens, tgt_tokens, model_out, model_txt)
-            
-    refs = [" ".join(x[2]).replace("\n", "") for x in results]
-    hyps = [x[-1] for x in results]
+
+    """
+    ['<s> A group of men are loading cotton onto a truck </s>',
+     '<s> A man sleeping in a green room on a couch . </s>', 
+     "<s> A boy wearing headphones sits on a woman 's shoulders . </s>", 
+     '<s> Two men setting up a blue ice fishing hut on an iced over lake </s>', 
+     '<s> A balding man wearing a red life jacket is sitting in a small boat . </s>']
+    """
+    refs = [" ".join(x[2]).replace("\n", "") for x in results] # ground truth tgt
+
+    """
+    ['<s> A group of men are putting cotton into a truck . </s>',
+     '<s> A man sleeps on a couch in a green room . </s>',
+      "<s> A boy wearing headphones sits on a woman 's shoulders . </s>", 
+      '<s> Two men building a blue <unk> on a <unk> lake . </s>', 
+      '<s> A balding man wearing a red life jacket sitting in a small boat . </s>']
+    """
+    hyps = [x[-1] for x in results]  # predicted tgt
     score = compute_corpus_level_bleu(refs, hyps)
-    out_file.close()    
-    
+    out_file.close()
     return results, score
 
 
@@ -513,6 +545,10 @@ def run_model_eval(beam_search=False, beam_size=4, verbose=True, num_ex=None):
     return model, example_data, score
 
 
+# Added for problem 2.4.3
+def plot_bleu():
+    pass
+
 
 if __name__ == "__main__":
     
@@ -527,7 +563,11 @@ if __name__ == "__main__":
     parser.add_argument("--file_prefix", type=str, default="multi30k_model_", help="file prefix to use for saving")
     parser.add_argument("--beam_search", action="store_true", help="Use beam search decoding instead of greedy decoding")
     parser.add_argument("--beam_size", type=int, default=4, help="Beam size during beam search decoding")
-    
+
+    # Added for problem 2.4.3
+    # parser.add_argument("")
+
+
     args = parser.parse_args()
     
     # Set seed

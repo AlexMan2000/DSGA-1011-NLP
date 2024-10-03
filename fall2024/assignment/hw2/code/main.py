@@ -514,6 +514,7 @@ def run_model_eval(beam_search=False, beam_size=4, verbose=True, num_ex=None):
 
 
 
+
 if __name__ == "__main__":
     
     parser = argparse.ArgumentParser()
@@ -527,7 +528,8 @@ if __name__ == "__main__":
     parser.add_argument("--file_prefix", type=str, default="multi30k_model_", help="file prefix to use for saving")
     parser.add_argument("--beam_search", action="store_true", help="Use beam search decoding instead of greedy decoding")
     parser.add_argument("--beam_size", type=int, default=4, help="Beam size during beam search decoding")
-    
+    parser.add_argument("--plot_bleu", action="store_true", help="BLEU plot evaluated from beam_size 1 to 5")
+
     args = parser.parse_args()
     
     # Set seed
@@ -541,7 +543,21 @@ if __name__ == "__main__":
     load_trained_model(args)
     
     _, results, score = run_model_eval(args.beam_search, args.beam_size, verbose=True)
-    
+
+    if args.plot_bleu:
+        import matplotlib.pyplot as plt
+        import numpy as np
+        scores = []
+        for i in range(1, 6):
+            _, results, score = run_model_eval(args.beam_search, i, verbose=True)
+            scores.append(score)
+
+        plt.plot(np.arange(1,len(scores) + 1), scores)
+        plt.xlabel("beam_size")
+        plt.ylabel("bleu_score")
+        plt.show()
+
+
     print("Bleu Score: ", score)
     
     

@@ -97,7 +97,7 @@ def test_beam_search():
     results_greedy, score = eval_model(
         valid_dataloader, model, vocab_src, vocab_tgt, beam_search=False, beam_size=1, verbose=False, max_iter=5
     )
-        
+
     
     results_beam, score = eval_model(
         valid_dataloader, model, vocab_src, vocab_tgt, beam_search=True, beam_size=1, verbose=False, max_iter=5
